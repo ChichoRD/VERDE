@@ -4,9 +4,23 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, IWeapon
 {
-    int amount = 0;
-    public void Use()
+    int amount; 
+    
+    public void Use(Vector2 posicion)
     {
         Debug.Log("Bomb Attack");
+
+        //Checkear si bombas mayor a 0
+        if (amount > 0)
+        {
+
+        }
+        //Instanciar prefab de la bomba
+
+            
+        
+
+
+
     }
 }
