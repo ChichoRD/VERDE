@@ -76,7 +76,7 @@ Transform:
   m_Children:
   - {fileID: 8299850585723083521}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1187758439639996411
 MonoBehaviour:
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 8
+    OrthographicSize: 10.53125
     NearClipPlane: 0.3
     FarClipPlane: 100
     Dutch: 0

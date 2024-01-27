@@ -110,6 +110,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8861078076243075371}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 256
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   <TriggerExit>k__BackingField:
     m_PersistentCalls:
       m_Calls:
@@ -136,6 +148,10 @@ PrefabInstance:
     - target: {fileID: 6520163992109880929, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
       propertyPath: m_Name
       value: Area VCam
+      objectReference: {fileID: 0}
+    - target: {fileID: 6520163992109880929, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8590846716531210334, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
       propertyPath: m_RootOrder
@@ -191,7 +207,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1187758439639996411, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
   m_PrefabInstance: {fileID: 2343166021453018954}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8861078076243075371}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
@@ -200,5 +216,10 @@ MonoBehaviour:
 --- !u!4 &6322007719378456340 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8590846716531210334, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
+  m_PrefabInstance: {fileID: 2343166021453018954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8861078076243075371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6520163992109880929, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
   m_PrefabInstance: {fileID: 2343166021453018954}
   m_PrefabAsset: {fileID: 0}
