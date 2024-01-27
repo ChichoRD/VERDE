@@ -1,0 +1,4219 @@
+fileFormatVersion: 2
+guid: 53fae4ba4704e164d9904aa67378f367
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 555
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a591c923ac19418c7f2ebbe505c37
+      internalID: -1981322362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 555
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4308ebd22d569194c8a6f84f06ae9396
+      internalID: 1139553194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 555
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644f8bdfb2ef59f428facfb25cad5246
+      internalID: 1697812802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 556
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747a169edb6e0e4d915f35bbfbb0069
+      internalID: 853559837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 555
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb32e2955c0b71046b984f5f40f565ff
+      internalID: 418779683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 555
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7763ee0d56882934880c8b5a09ad9bf4
+      internalID: -638322026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 555
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8e649191bbe0945a271950b3107154
+      internalID: 313857118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 556
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13acf26622de86418462de92629f1ef
+      internalID: -1779026225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_8
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 555
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1f7b77837d9364d9c5bdef456ac74a
+      internalID: -685893007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_9
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 555
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa40a063e0016a348bc6899db8699dbd
+      internalID: 788936950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_10
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 555
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c86451e7b40d4e498def58bb2404c53
+      internalID: 183334743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_11
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 556
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5dbdfd74e9e054e9c3581727839aa9
+      internalID: -1256336417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 497
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e692dc5448db14a8969295627d1a2e
+      internalID: -202821888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 498
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea578559aee9f5499be2571658b434b
+      internalID: 2017608576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 497
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4eff5582fc5448b9cb21ebe071a7a
+      internalID: -1534028920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 497
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be64597d6778144581b808bc5ae9ad5
+      internalID: -723847117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 497
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70adac4faa129fa4dbb369edb1b69d00
+      internalID: 557872795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 498
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bac80bc229dd041a88f4c1a66c7831
+      internalID: -1337694464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 497
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a133f8ed2dc134f9e638a5666097ac
+      internalID: 813318656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_19
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 497
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d58f6d95904f0b4e81cd35bfe903231
+      internalID: -1152091683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_20
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 497
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a9a205c4c14041acd3b8c6aaa4a79
+      internalID: -1841921082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_21
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 498
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab426ca6b8da91845b0e429d5a596ed0
+      internalID: -1733029899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_22
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 497
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8a2de63c2943b48b50d0e2348b5c4e
+      internalID: -917791715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_23
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 497
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6a987e0ef5db34ab53b224343703fa
+      internalID: -1473351045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce7beec98a2394fa8087dc4faf1ff2
+      internalID: 1628115937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbe8d81a9ddb69488f4da1b260ee83c
+      internalID: 56726756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_26
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 439
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f107290aec5a14ba250ef35bbf9abd
+      internalID: -726848120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_27
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abd6670d2aa52347ba4108350ad3369
+      internalID: 448146927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 440
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e996103e4b1f37d4da2ec1d0b4a5caec
+      internalID: 2142201264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_29
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4feea40ccabbf645b36eca302637bbc
+      internalID: -2111580793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_30
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 439
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49519fa8a9a0f8d45a7937a561fc8eb0
+      internalID: -564826031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_31
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea14e3cab1c51af419b62afdd5864a59
+      internalID: 1821831749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_32
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 440
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695e5341b5d7c284ba7bc30dca3d9a83
+      internalID: 1153476750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_33
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c17a746d9b0f514fb30c4ce22eb116d
+      internalID: 511112213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_34
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 439
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e39d3f373b0d40abb00c0a0bc3586
+      internalID: 732721005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 440
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdea33921452a34d98f3ceac503802e
+      internalID: -410271311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7f53ec1d2ea3446a282ba21b0af0f7
+      internalID: 1692599551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a705825eb6c47438c01eb0824085aa
+      internalID: -1180065577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_38
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 369
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376e1a95d8e075943915bfac25500b7d
+      internalID: 1035642975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8647fd40a05e6946b60a5af742a4092
+      internalID: 1353895072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_40
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 371
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd8d8baa9a83814d9aca4c582412828
+      internalID: 574508858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_41
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec2e38fdf043f44fa1e758b8b65123d
+      internalID: 73364545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 369
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ccabaf68c949a4ba3d43f5e2d3ffb2
+      internalID: 1211261816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035f91967cb12ea42af1844564220e4c
+      internalID: -828648301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_44
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 371
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5b4b7d8676a084192700c041a2d652
+      internalID: 1179784400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21d9e7352bbd247a9d2f480a38cb15
+      internalID: -1558720368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_46
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 369
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca766aa9832477144ba564ff4944e65b
+      internalID: 1674616212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_47
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 382
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acb5140e9fca8a4296ade2c6a0cf114
+      internalID: 35843638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3298d6b0c189641a0e3abe76a279a0
+      internalID: -1860206089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4928c8c50141d4459967326d1f9c671
+      internalID: 227333634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_50
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 311
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58db1b3389f5e6f4892d80ad7f0f679e
+      internalID: 217165326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_51
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4849fd3d2e537cd4d8ef22f6ae3ef7e2
+      internalID: -385688355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 313
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1bb8529003e2e479ad85f89014c0a5
+      internalID: 1317943036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_53
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892ed7805054fa6429220e37d8d882f5
+      internalID: -106389758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_54
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 311
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac49cbd6459103e42b2cff827aaa05de
+      internalID: -12352485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_55
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b6e819a0475c4595103aab83d96a2
+      internalID: 858252077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_56
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 313
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ff26ef28c40c0488d8116f6bc63c32
+      internalID: 1724648405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_57
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f8b7237876ded4a971ba1e945cd54f
+      internalID: -1882244083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_58
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 311
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5899a80547bf774092a293d33f139d0
+      internalID: -2084308302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_59
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 324
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c193f19d679eca419c284d1224f4200
+      internalID: -247790990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 264
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ef827a28d7eb41976dee66a19e3ca
+      internalID: -662691723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_61
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 264
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6751ec0dacbb64ab0e9a3c09c61ad5
+      internalID: -1651464797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 282
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ead1969ffc90f242b50146d9a575785
+      internalID: -2087145654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 274
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4428311d28f5674390933fef88cba07
+      internalID: 1724418521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_64
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 264
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67542df4a0ca80a45842de580197732e
+      internalID: -1219539715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_65
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 264
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a58f082c6bc7f4489021a5f9a851d1
+      internalID: -1517055782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_66
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 282
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54198818768a4c4408747028b565377d
+      internalID: -332028787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_67
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 274
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f04df7fa1817b7479d6e563f24c9d1c
+      internalID: 2110660468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_68
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 264
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442e32a1dc6215947aa738c0a0af1a61
+      internalID: 2052422992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_69
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 264
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe39ce6a0cbc634491f1c750f112bce
+      internalID: 237341201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_70
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 282
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a7b9f91baa2e64e82111829568ca47
+      internalID: 1954032848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_71
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 274
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5605cc6976e6bfb4c8e5d45948b7d38c
+      internalID: -1402668258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_72
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 245
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8861f2eefa6c0774f9cedff9485dc884
+      internalID: 1787713840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_73
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967495e117690f64cad0c1f62d5ec077
+      internalID: 855328074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_74
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 249
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b4fdb5d0adfd6418324385261eeb96
+      internalID: 1314512894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_75
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 251
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f795316a73852d3418325d29eed8e6f6
+      internalID: -1362422369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_76
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 245
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f589bdb38e7a479d0721e68684e06
+      internalID: 195619769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_77
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 249
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b0eba1b09fb77408f052e8422a569c
+      internalID: 971508179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_78
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5574d9b23500c514e987f4040c5e53d8
+      internalID: 1966028020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_79
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 245
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c840786df43fe48aa8e50891350424
+      internalID: 438585774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_80
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 245
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86bc00bd298117488e7fe7d363d883c
+      internalID: 1238764428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_81
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e0062cc49f724499a1d19029982bf9
+      internalID: -73238412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_82
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 249
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e84ba1c2201776458fb0f44f261bb3b
+      internalID: 320468629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_83
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 251
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d939a79b4d139544f84b176446ae2e98
+      internalID: -1199723414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_84
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 268
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa715d18ec8a70c409c8f6c2c03f9f12
+      internalID: -1697239568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_85
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 263
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c822582476166d545bb6a9aeda2b4e2d
+      internalID: 425141295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 251
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4682ddb8f4f24b4459bd4339f348cdae
+      internalID: -1547099075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_87
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 249
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb35cd24087eeb4097405bcde7feddb
+      internalID: -546939892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_88
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ebf9b38038ee847afaa3113bb7721e
+      internalID: 2002946830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_89
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 245
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e6941b8ba6c8e40aa799f90d5c10f6
+      internalID: -773409936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_90
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 245
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c49dc3b6abb7c248add526ef9be75a0
+      internalID: -1746643010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_91
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c4895b701ae34382904b171d46076
+      internalID: -1512708156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_92
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 249
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e264b1a7c40a941b6639a947df8c20
+      internalID: -2023596397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_93
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 268
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4576cd48c1404e4899bcb3eb3b8b92b
+      internalID: 1176344074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_94
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 263
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f973b86c49f884685b71da00d12738
+      internalID: -1739557570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_95
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 251
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f338a4ef985a04ead4afbc34caff00
+      internalID: 1277795528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_96
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 249
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d813d82a390c8b14ab49bbd67d274a89
+      internalID: 758762879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_97
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 247
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9a3ecd2baf20c4cb18f977265bb10b
+      internalID: -1524992226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_98
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 245
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f7c7cf954a81e4a8c10954fd0a7e09
+      internalID: -659947178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_99
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 245
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224ac0e2259a4cc4290e83f353612065
+      internalID: 1082948007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_100
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 251
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78b9c85ad2c4d44db3cd4c8193d8f00
+      internalID: 1676405100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_101
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 245
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75965e5c14bc4e24099bbe4a8cd5068c
+      internalID: 318783042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_102
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 251
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd908e55358a4f4ab3ffc7fa7bd73c1
+      internalID: 1405243341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_103
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 235
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf141a6841fb884ba009147eba6d3b5
+      internalID: -1699951685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_104
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 235
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c7266411aeab54ea028d92314f6d62
+      internalID: -865483236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_105
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 235
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cd6e78c931f4e42b7a6fe31b5385c8
+      internalID: 1816173421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 228
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd212d60f2ee094d839d3aa028e5625
+      internalID: -990676529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_107
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 237
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d6e932b5c9b4846ad8f794c163e18b
+      internalID: 572508406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_108
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 228
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6ecfdd7fbdbe48b70228898fa034a
+      internalID: -1711396283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_109
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 237
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edecb25804f03c44cbc372b8b0ad6d8b
+      internalID: 556991297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_110
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 228
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57191e36ef17c5845ae956a3a9656369
+      internalID: 1729529524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_111
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 237
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4784bb23175b445a9596793d1b57b7
+      internalID: -39036363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_112
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 177
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d7429294b6794dbd2bccf275674d1
+      internalID: -115740440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_113
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 187
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5e9b9744eb0ca4e86356f3e185605b
+      internalID: 1907739512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_114
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 177
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713a97ddc905b974d9f9d1fe8fbec7ac
+      internalID: 1404053542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_115
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 187
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964f4b584782bda44b76aaa9578b7c90
+      internalID: 1570477744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_116
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 177
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c83bfe889c16e41beb213fe6ed7c6d
+      internalID: -1542983325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_117
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 189
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968ac943f1c39ab4d9e4f671f611a2d2
+      internalID: -173666372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_118
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 177
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fc3a55705d6bd46a16ca03f5fc799c
+      internalID: 1330952915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_119
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 189
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d81a8b346d974fb17e767a337c784
+      internalID: 1257932863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_120
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 185
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6edfaff45fea64e859f33a548e6de8
+      internalID: -666430470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_121
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 185
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8199a73ccdd974d9b12df3a366315d
+      internalID: 1298477819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_122
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 181
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d271070354eb4fb91cea832c65060
+      internalID: 831765868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_123
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 181
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2764d4e68c56e43bf6061f98c1e73f
+      internalID: 1437643513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_124
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 177
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0d8bdaf11ade543883bf90e960eefd
+      internalID: -1800884501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_125
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 199
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177089549c3d8d243abb59c368a73acd
+      internalID: 1141330461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_126
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 199
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed7109555e42f84db8ef004d95fe096
+      internalID: -512397672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_127
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 177
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665c5541cc30a2c45a7dafa5f1892c9f
+      internalID: -730871092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_128
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 177
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8461961eb11844fb7d9c007d4abbb2
+      internalID: -1421204545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_129
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 119
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb50e74aa483f1c44980d2486a754e8d
+      internalID: -1362522508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_130
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 129
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442b4b8a23964a348aa80ea75fc26c8d
+      internalID: 2037576219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_131
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 119
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5de8ea5dcd00f41a9f576124501767
+      internalID: 1383657928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_132
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 129
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c2a4c7557902744a47fd775ccb5c5c
+      internalID: -833312192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_133
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 119
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04bd2d0036cef941965c31bf638d05a
+      internalID: 259527740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_134
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 131
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb22020ad478f234c807059317e1ac6f
+      internalID: -257646145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_135
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 119
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b781c47f58ec9459aa86f082f88d1c
+      internalID: -1994831174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_136
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 131
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6858e69084e01ec4ca188c411db8ce5a
+      internalID: -904605653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_137
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 119
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ba923b7b1cea84f994373d15b8e12f
+      internalID: -1296592089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_138
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 119
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46969f4f6afeda342a2cc371c2048cb1
+      internalID: -935729756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_139
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 127
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af78425f5e2764ba10f1013d421d4c
+      internalID: -1680717051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_140
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 127
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a2f608c9839874bb8eaaeb5c4bb96e
+      internalID: -1532594018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_141
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 121
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe54c40e4e45c349b90876e80d790c5
+      internalID: -1341893925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_142
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 125
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcc07ff95fb77e44af389a5495c774f
+      internalID: 155470789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_143
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 119
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237e3b1674445ba4aa25150ed33a1820
+      internalID: -1679911462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_144
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 61
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680d7a1068ab8d4894930cc64ae1f4d
+      internalID: -345232837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_145
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e22bfdf9791e964bbdd40cd842a7abf
+      internalID: -1208113884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_146
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 61
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659ab61bee233b6458f327ee70ddffb0
+      internalID: -1240502922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_147
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 71
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65415bf14cf0144b54dc0359c02714
+      internalID: 1593542953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_148
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 61
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55789ed74e381614a8099818c38eee0c
+      internalID: -385095485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_149
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 73
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a766c6225f423429a34f657ff1dd6f
+      internalID: -7510798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_150
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 61
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca89ba933b17624393bdb698ecca63e
+      internalID: 58141571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_151
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 73
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3e06164c75ba4e8b343c99ec57fb3
+      internalID: -678664096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_152
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 61
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad446855ad3766441a4fc07de41acb9e
+      internalID: -1293292997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_153
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 61
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef48a7c762225de43a0c120e8073178a
+      internalID: 1816089231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_154
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 61
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86366548b01ed284f9c5d2f032e6525d
+      internalID: -1936550853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_155
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 63
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc1932c132a8dd4db1e0ee77c4ff2be
+      internalID: 1284820440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_156
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 61
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe585479d3c9d842a82d50b3e805aed
+      internalID: 975873511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_157
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 65
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46159cdb6402844c89f20aa17424e3d
+      internalID: 807133193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_158
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 61
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2abacdf2004954093c327d6a3d776b
+      internalID: 1048874587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_159
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f341723c2502419379a316412b8c6
+      internalID: 1928886922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_160
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 13
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9053661e5a52d4eb5c67decd69993a
+      internalID: 1075703882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_161
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 3
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bde71cfadfcd54fa341350d04da37a
+      internalID: -1051837376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_162
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 13
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ec98a226443042afeb5bbc84e54f0
+      internalID: 761040461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_163
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c5abbd7b902d4ab0d274d587b6df4
+      internalID: -1352682677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_164
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5c2ee3a7666854e8dc9008b2d1f5b0
+      internalID: -1194138220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db781e415ca8b6143a7052a7320cfa75
+      internalID: -1230000672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_166
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496ebd57099fd443b21ea6c56bbfb20
+      internalID: -707579919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_167
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 21
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d78ba36851ae24eb6291602a4227f1
+      internalID: -730664776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_168
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dced06eccc0c448acc75ace899847a
+      internalID: -776600876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_169
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 21
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f9cc2a5649474b80bc330f0a80c77
+      internalID: 659148415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_170
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 21
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ad1ffe712a8b441b0b64e1a770584a
+      internalID: 1092955844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_171
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628f75bd83b243943bc95e46871318f5
+      internalID: 419730545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_172
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbceaac16b5440947a402e7e3d97808f
+      internalID: 816255673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_173
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a52aee2461494da1cd24ec11b53ca
+      internalID: -1116882617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_174
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 9
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c91caec4b4c2744918ff586d5df00b
+      internalID: 197831752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_175
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 9
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad6f0678a1a9e043a2247f5c53ec0f8
+      internalID: 1543102402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_176
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 3
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce1acc070c6f0d43ae22ffe6719dd5c
+      internalID: -1432313052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_177
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624ed90de89ae444b38f6172e3def16
+      internalID: -2062995554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_178
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebe315f361f8d24e9410ff340dc845a
+      internalID: -1651150193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_179
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffbd507d1dbd194c9516e85a50359f5
+      internalID: -1156578333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_180
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc3ab86f1c610449a5a4c9350807fd4
+      internalID: 912499732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_181
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cf3c9a354723d4992f73fdfe12d7a4
+      internalID: -340694320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_182
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1993a1b21f2ddbd419a1416edab835cf
+      internalID: 1601304292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_183
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af1a65e9b41ad498bc7a25b722a134
+      internalID: -252314712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_184
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b403a1fea8af59d4eb545b69f730975e
+      internalID: 1093511372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toppng.com-link-zelda-1-sprite-sheet-432x303_185
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d390daad0bcf0941a12eb6cde9d9a5e
+      internalID: 2062882301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      toppng.com-link-zelda-1-sprite-sheet-432x303_0: -1981322362
+      toppng.com-link-zelda-1-sprite-sheet-432x303_1: 1139553194
+      toppng.com-link-zelda-1-sprite-sheet-432x303_10: 183334743
+      toppng.com-link-zelda-1-sprite-sheet-432x303_100: 1676405100
+      toppng.com-link-zelda-1-sprite-sheet-432x303_101: 318783042
+      toppng.com-link-zelda-1-sprite-sheet-432x303_102: 1405243341
+      toppng.com-link-zelda-1-sprite-sheet-432x303_103: -1699951685
+      toppng.com-link-zelda-1-sprite-sheet-432x303_104: -865483236
+      toppng.com-link-zelda-1-sprite-sheet-432x303_105: 1816173421
+      toppng.com-link-zelda-1-sprite-sheet-432x303_106: -990676529
+      toppng.com-link-zelda-1-sprite-sheet-432x303_107: 572508406
+      toppng.com-link-zelda-1-sprite-sheet-432x303_108: -1711396283
+      toppng.com-link-zelda-1-sprite-sheet-432x303_109: 556991297
+      toppng.com-link-zelda-1-sprite-sheet-432x303_11: -1256336417
+      toppng.com-link-zelda-1-sprite-sheet-432x303_110: 1729529524
+      toppng.com-link-zelda-1-sprite-sheet-432x303_111: -39036363
+      toppng.com-link-zelda-1-sprite-sheet-432x303_112: -115740440
+      toppng.com-link-zelda-1-sprite-sheet-432x303_113: 1907739512
+      toppng.com-link-zelda-1-sprite-sheet-432x303_114: 1404053542
+      toppng.com-link-zelda-1-sprite-sheet-432x303_115: 1570477744
+      toppng.com-link-zelda-1-sprite-sheet-432x303_116: -1542983325
+      toppng.com-link-zelda-1-sprite-sheet-432x303_117: -173666372
+      toppng.com-link-zelda-1-sprite-sheet-432x303_118: 1330952915
+      toppng.com-link-zelda-1-sprite-sheet-432x303_119: 1257932863
+      toppng.com-link-zelda-1-sprite-sheet-432x303_12: -202821888
+      toppng.com-link-zelda-1-sprite-sheet-432x303_120: -666430470
+      toppng.com-link-zelda-1-sprite-sheet-432x303_121: 1298477819
+      toppng.com-link-zelda-1-sprite-sheet-432x303_122: 831765868
+      toppng.com-link-zelda-1-sprite-sheet-432x303_123: 1437643513
+      toppng.com-link-zelda-1-sprite-sheet-432x303_124: -1800884501
+      toppng.com-link-zelda-1-sprite-sheet-432x303_125: 1141330461
+      toppng.com-link-zelda-1-sprite-sheet-432x303_126: -512397672
+      toppng.com-link-zelda-1-sprite-sheet-432x303_127: -730871092
+      toppng.com-link-zelda-1-sprite-sheet-432x303_128: -1421204545
+      toppng.com-link-zelda-1-sprite-sheet-432x303_129: -1362522508
+      toppng.com-link-zelda-1-sprite-sheet-432x303_13: 2017608576
+      toppng.com-link-zelda-1-sprite-sheet-432x303_130: 2037576219
+      toppng.com-link-zelda-1-sprite-sheet-432x303_131: 1383657928
+      toppng.com-link-zelda-1-sprite-sheet-432x303_132: -833312192
+      toppng.com-link-zelda-1-sprite-sheet-432x303_133: 259527740
+      toppng.com-link-zelda-1-sprite-sheet-432x303_134: -257646145
+      toppng.com-link-zelda-1-sprite-sheet-432x303_135: -1994831174
+      toppng.com-link-zelda-1-sprite-sheet-432x303_136: -904605653
+      toppng.com-link-zelda-1-sprite-sheet-432x303_137: -1296592089
+      toppng.com-link-zelda-1-sprite-sheet-432x303_138: -935729756
+      toppng.com-link-zelda-1-sprite-sheet-432x303_139: -1680717051
+      toppng.com-link-zelda-1-sprite-sheet-432x303_14: -1534028920
+      toppng.com-link-zelda-1-sprite-sheet-432x303_140: -1532594018
+      toppng.com-link-zelda-1-sprite-sheet-432x303_141: -1341893925
+      toppng.com-link-zelda-1-sprite-sheet-432x303_142: 155470789
+      toppng.com-link-zelda-1-sprite-sheet-432x303_143: -1679911462
+      toppng.com-link-zelda-1-sprite-sheet-432x303_144: -345232837
+      toppng.com-link-zelda-1-sprite-sheet-432x303_145: -1208113884
+      toppng.com-link-zelda-1-sprite-sheet-432x303_146: -1240502922
+      toppng.com-link-zelda-1-sprite-sheet-432x303_147: 1593542953
+      toppng.com-link-zelda-1-sprite-sheet-432x303_148: -385095485
+      toppng.com-link-zelda-1-sprite-sheet-432x303_149: -7510798
+      toppng.com-link-zelda-1-sprite-sheet-432x303_15: -723847117
+      toppng.com-link-zelda-1-sprite-sheet-432x303_150: 58141571
+      toppng.com-link-zelda-1-sprite-sheet-432x303_151: -678664096
+      toppng.com-link-zelda-1-sprite-sheet-432x303_152: -1293292997
+      toppng.com-link-zelda-1-sprite-sheet-432x303_153: 1816089231
+      toppng.com-link-zelda-1-sprite-sheet-432x303_154: -1936550853
+      toppng.com-link-zelda-1-sprite-sheet-432x303_155: 1284820440
+      toppng.com-link-zelda-1-sprite-sheet-432x303_156: 975873511
+      toppng.com-link-zelda-1-sprite-sheet-432x303_157: 807133193
+      toppng.com-link-zelda-1-sprite-sheet-432x303_158: 1048874587
+      toppng.com-link-zelda-1-sprite-sheet-432x303_159: 1928886922
+      toppng.com-link-zelda-1-sprite-sheet-432x303_16: 557872795
+      toppng.com-link-zelda-1-sprite-sheet-432x303_160: 1075703882
+      toppng.com-link-zelda-1-sprite-sheet-432x303_161: -1051837376
+      toppng.com-link-zelda-1-sprite-sheet-432x303_162: 761040461
+      toppng.com-link-zelda-1-sprite-sheet-432x303_163: -1352682677
+      toppng.com-link-zelda-1-sprite-sheet-432x303_164: -1194138220
+      toppng.com-link-zelda-1-sprite-sheet-432x303_165: -1230000672
+      toppng.com-link-zelda-1-sprite-sheet-432x303_166: -707579919
+      toppng.com-link-zelda-1-sprite-sheet-432x303_167: -730664776
+      toppng.com-link-zelda-1-sprite-sheet-432x303_168: -776600876
+      toppng.com-link-zelda-1-sprite-sheet-432x303_169: 659148415
+      toppng.com-link-zelda-1-sprite-sheet-432x303_17: -1337694464
+      toppng.com-link-zelda-1-sprite-sheet-432x303_170: 1092955844
+      toppng.com-link-zelda-1-sprite-sheet-432x303_171: 419730545
+      toppng.com-link-zelda-1-sprite-sheet-432x303_172: 816255673
+      toppng.com-link-zelda-1-sprite-sheet-432x303_173: -1116882617
+      toppng.com-link-zelda-1-sprite-sheet-432x303_174: 197831752
+      toppng.com-link-zelda-1-sprite-sheet-432x303_175: 1543102402
+      toppng.com-link-zelda-1-sprite-sheet-432x303_176: -1432313052
+      toppng.com-link-zelda-1-sprite-sheet-432x303_177: -2062995554
+      toppng.com-link-zelda-1-sprite-sheet-432x303_178: -1651150193
+      toppng.com-link-zelda-1-sprite-sheet-432x303_179: -1156578333
+      toppng.com-link-zelda-1-sprite-sheet-432x303_18: 813318656
+      toppng.com-link-zelda-1-sprite-sheet-432x303_180: 912499732
+      toppng.com-link-zelda-1-sprite-sheet-432x303_181: -340694320
+      toppng.com-link-zelda-1-sprite-sheet-432x303_182: 1601304292
+      toppng.com-link-zelda-1-sprite-sheet-432x303_183: -252314712
+      toppng.com-link-zelda-1-sprite-sheet-432x303_184: 1093511372
+      toppng.com-link-zelda-1-sprite-sheet-432x303_185: 2062882301
+      toppng.com-link-zelda-1-sprite-sheet-432x303_19: -1152091683
+      toppng.com-link-zelda-1-sprite-sheet-432x303_2: 1697812802
+      toppng.com-link-zelda-1-sprite-sheet-432x303_20: -1841921082
+      toppng.com-link-zelda-1-sprite-sheet-432x303_21: -1733029899
+      toppng.com-link-zelda-1-sprite-sheet-432x303_22: -917791715
+      toppng.com-link-zelda-1-sprite-sheet-432x303_23: -1473351045
+      toppng.com-link-zelda-1-sprite-sheet-432x303_24: 1628115937
+      toppng.com-link-zelda-1-sprite-sheet-432x303_25: 56726756
+      toppng.com-link-zelda-1-sprite-sheet-432x303_26: -726848120
+      toppng.com-link-zelda-1-sprite-sheet-432x303_27: 448146927
+      toppng.com-link-zelda-1-sprite-sheet-432x303_28: 2142201264
+      toppng.com-link-zelda-1-sprite-sheet-432x303_29: -2111580793
+      toppng.com-link-zelda-1-sprite-sheet-432x303_3: 853559837
+      toppng.com-link-zelda-1-sprite-sheet-432x303_30: -564826031
+      toppng.com-link-zelda-1-sprite-sheet-432x303_31: 1821831749
+      toppng.com-link-zelda-1-sprite-sheet-432x303_32: 1153476750
+      toppng.com-link-zelda-1-sprite-sheet-432x303_33: 511112213
+      toppng.com-link-zelda-1-sprite-sheet-432x303_34: 732721005
+      toppng.com-link-zelda-1-sprite-sheet-432x303_35: -410271311
+      toppng.com-link-zelda-1-sprite-sheet-432x303_36: 1692599551
+      toppng.com-link-zelda-1-sprite-sheet-432x303_37: -1180065577
+      toppng.com-link-zelda-1-sprite-sheet-432x303_38: 1035642975
+      toppng.com-link-zelda-1-sprite-sheet-432x303_39: 1353895072
+      toppng.com-link-zelda-1-sprite-sheet-432x303_4: 418779683
+      toppng.com-link-zelda-1-sprite-sheet-432x303_40: 574508858
+      toppng.com-link-zelda-1-sprite-sheet-432x303_41: 73364545
+      toppng.com-link-zelda-1-sprite-sheet-432x303_42: 1211261816
+      toppng.com-link-zelda-1-sprite-sheet-432x303_43: -828648301
+      toppng.com-link-zelda-1-sprite-sheet-432x303_44: 1179784400
+      toppng.com-link-zelda-1-sprite-sheet-432x303_45: -1558720368
+      toppng.com-link-zelda-1-sprite-sheet-432x303_46: 1674616212
+      toppng.com-link-zelda-1-sprite-sheet-432x303_47: 35843638
+      toppng.com-link-zelda-1-sprite-sheet-432x303_48: -1860206089
+      toppng.com-link-zelda-1-sprite-sheet-432x303_49: 227333634
+      toppng.com-link-zelda-1-sprite-sheet-432x303_5: -638322026
+      toppng.com-link-zelda-1-sprite-sheet-432x303_50: 217165326
+      toppng.com-link-zelda-1-sprite-sheet-432x303_51: -385688355
+      toppng.com-link-zelda-1-sprite-sheet-432x303_52: 1317943036
+      toppng.com-link-zelda-1-sprite-sheet-432x303_53: -106389758
+      toppng.com-link-zelda-1-sprite-sheet-432x303_54: -12352485
+      toppng.com-link-zelda-1-sprite-sheet-432x303_55: 858252077
+      toppng.com-link-zelda-1-sprite-sheet-432x303_56: 1724648405
+      toppng.com-link-zelda-1-sprite-sheet-432x303_57: -1882244083
+      toppng.com-link-zelda-1-sprite-sheet-432x303_58: -2084308302
+      toppng.com-link-zelda-1-sprite-sheet-432x303_59: -247790990
+      toppng.com-link-zelda-1-sprite-sheet-432x303_6: 313857118
+      toppng.com-link-zelda-1-sprite-sheet-432x303_60: -662691723
+      toppng.com-link-zelda-1-sprite-sheet-432x303_61: -1651464797
+      toppng.com-link-zelda-1-sprite-sheet-432x303_62: -2087145654
+      toppng.com-link-zelda-1-sprite-sheet-432x303_63: 1724418521
+      toppng.com-link-zelda-1-sprite-sheet-432x303_64: -1219539715
+      toppng.com-link-zelda-1-sprite-sheet-432x303_65: -1517055782
+      toppng.com-link-zelda-1-sprite-sheet-432x303_66: -332028787
+      toppng.com-link-zelda-1-sprite-sheet-432x303_67: 2110660468
+      toppng.com-link-zelda-1-sprite-sheet-432x303_68: 2052422992
+      toppng.com-link-zelda-1-sprite-sheet-432x303_69: 237341201
+      toppng.com-link-zelda-1-sprite-sheet-432x303_7: -1779026225
+      toppng.com-link-zelda-1-sprite-sheet-432x303_70: 1954032848
+      toppng.com-link-zelda-1-sprite-sheet-432x303_71: -1402668258
+      toppng.com-link-zelda-1-sprite-sheet-432x303_72: 1787713840
+      toppng.com-link-zelda-1-sprite-sheet-432x303_73: 855328074
+      toppng.com-link-zelda-1-sprite-sheet-432x303_74: 1314512894
+      toppng.com-link-zelda-1-sprite-sheet-432x303_75: -1362422369
+      toppng.com-link-zelda-1-sprite-sheet-432x303_76: 195619769
+      toppng.com-link-zelda-1-sprite-sheet-432x303_77: 971508179
+      toppng.com-link-zelda-1-sprite-sheet-432x303_78: 1966028020
+      toppng.com-link-zelda-1-sprite-sheet-432x303_79: 438585774
+      toppng.com-link-zelda-1-sprite-sheet-432x303_8: -685893007
+      toppng.com-link-zelda-1-sprite-sheet-432x303_80: 1238764428
+      toppng.com-link-zelda-1-sprite-sheet-432x303_81: -73238412
+      toppng.com-link-zelda-1-sprite-sheet-432x303_82: 320468629
+      toppng.com-link-zelda-1-sprite-sheet-432x303_83: -1199723414
+      toppng.com-link-zelda-1-sprite-sheet-432x303_84: -1697239568
+      toppng.com-link-zelda-1-sprite-sheet-432x303_85: 425141295
+      toppng.com-link-zelda-1-sprite-sheet-432x303_86: -1547099075
+      toppng.com-link-zelda-1-sprite-sheet-432x303_87: -546939892
+      toppng.com-link-zelda-1-sprite-sheet-432x303_88: 2002946830
+      toppng.com-link-zelda-1-sprite-sheet-432x303_89: -773409936
+      toppng.com-link-zelda-1-sprite-sheet-432x303_9: 788936950
+      toppng.com-link-zelda-1-sprite-sheet-432x303_90: -1746643010
+      toppng.com-link-zelda-1-sprite-sheet-432x303_91: -1512708156
+      toppng.com-link-zelda-1-sprite-sheet-432x303_92: -2023596397
+      toppng.com-link-zelda-1-sprite-sheet-432x303_93: 1176344074
+      toppng.com-link-zelda-1-sprite-sheet-432x303_94: -1739557570
+      toppng.com-link-zelda-1-sprite-sheet-432x303_95: 1277795528
+      toppng.com-link-zelda-1-sprite-sheet-432x303_96: 758762879
+      toppng.com-link-zelda-1-sprite-sheet-432x303_97: -1524992226
+      toppng.com-link-zelda-1-sprite-sheet-432x303_98: -659947178
+      toppng.com-link-zelda-1-sprite-sheet-432x303_99: 1082948007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
