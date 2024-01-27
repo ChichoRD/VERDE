@@ -4,26 +4,19 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, IWeapon
 {
-    int amount;
+    int amount=1; //cambiar esto
     [SerializeField]
     GameObject bombPrefab;
     
-    public void Use(Vector2 posicion)
+    public void Use(Vector2 playerPosition, Vector2 playerDirection)
     {
-        Debug.Log("Bomb Attack");
 
         //Checkear si bombas mayor a 0
         if (amount > 0)
         {
-            //Instantiate(bombPrefab, UNA CASILLA MAS QUE LINK, ROTACION NORMAL)           Deberia hacerse referencia a la direccion de link para instanciar
+            Debug.Log("Bomb Attack");
+            Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity); 
         }
-        
-
-            
-        
-
-
-
     }
     
 }

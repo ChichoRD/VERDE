@@ -9,6 +9,8 @@ public class InputManager : MonoBehaviour
     private float yInput;
     [SerializeField]
     PlayerController controller;
+    [SerializeField]
+    WeaponHandler weaponHandler;
     // Update is called once per frame
     private void Update()
     {
@@ -29,5 +31,18 @@ public class InputManager : MonoBehaviour
             controller.SetHorizontalInput(0);
             controller.SetVerticalInput(0);
         }
+
+        //ATAQUE
+
+        if (Input.GetKeyDown(KeyCode.Mouse0)) //A
+        {
+            weaponHandler.AAction(controller.lookDirection);
+        }
+
+        else if(Input.GetKeyDown(KeyCode.Mouse1)) //B
+        { 
+            weaponHandler.BAction(controller.lookDirection);
+        }
+        
     }
 }
