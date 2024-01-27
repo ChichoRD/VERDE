@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, IWeapon
 {
-    int amount; 
+    int amount;
+    [SerializeField]
+    GameObject bombPrefab;
     
     public void Use(Vector2 posicion)
     {
@@ -13,9 +15,9 @@ public class Bomb : MonoBehaviour, IWeapon
         //Checkear si bombas mayor a 0
         if (amount > 0)
         {
-
+            //Instantiate(bombPrefab, UNA CASILLA MAS QUE LINK, ROTACION NORMAL)           Deberia hacerse referencia a la direccion de link para instanciar
         }
-        //Instanciar prefab de la bomba
+        
 
             
         
@@ -23,4 +25,5 @@ public class Bomb : MonoBehaviour, IWeapon
 
 
     }
+    
 }

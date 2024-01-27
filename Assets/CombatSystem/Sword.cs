@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Sword : MonoBehaviour, IWeapon
 {
     int damage;
+    [SerializeField]
+    private Collider2D hitbox;
     public void Use(Vector2 posicion)
     {
         Debug.Log("Sword Attack");
@@ -13,19 +16,22 @@ public class Sword : MonoBehaviour, IWeapon
 
         //Llamada al character movement para que el personaje no pueda moverse durante la animacion
 
-        //Instanciar un collider/trigger, con el cual se interactua en otro script.
-        Collider2D collision = Physics2D.OverlapCircle(posicion, 3);
+        //Instanciar una hitbox
 
-        if (collision.TryGetComponent<Health>(out Health health))
-        {
-            health.Damaged(damage);
-        }
+                    //Collider2D collision = Physics2D.OverlapCircle(posicion, 3);
         
-        //Borrar el trigger al terminar la animacion
+        hitbox.enabled = true;
+
+        //Recibir evento de fin de animacion y desactivar hitbox
+        hitbox.enabled = false;
 
         //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
 
 
 
+    }
+    void Start()
+    {
+        hitbox = GetComponent<Collider2D>();
     }
 }
