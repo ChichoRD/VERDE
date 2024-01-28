@@ -45,7 +45,8 @@ public class PlayerController : MonoBehaviour
 
     public void ReadInput(Vector2 input) 
     {
-        print(input);
+        if (input.magnitude > 0) lookDirection = input;
+
         rb.velocity = input * moveSpeed;
     }
     

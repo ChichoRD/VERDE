@@ -198,11 +198,35 @@ MonoBehaviour:
     m_ActionId: ff8ca4e9-1b91-45ee-b8df-f82d2b03f126
     m_ActionName: Playing/Move[/Keyboard/w,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 421754182}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: ActionA
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 105e70b6-3d99-4af5-b704-5de275ad9917
     m_ActionName: Playing/ActionA[/Keyboard/k]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 421754182}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: ActionB
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: e2eac691-7eac-4638-8b7c-b530d1a6d1df
     m_ActionName: Playing/ActionB[/Keyboard/l]
   - m_PersistentCalls:
@@ -230,7 +254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a359f5778539a4a95092047a162f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInput: {fileID: 0}
   playerController: {fileID: 2004025411}
 --- !u!1 &613235216
 GameObject:
@@ -380,11 +403,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - _name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
+  - _name: Overworld
+    clip: {fileID: 8300000, guid: 41fac749332e68743aa86d1d6254a96b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
 --- !u!1 &937350796
 GameObject:
@@ -657,6 +680,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473596516}
   m_CullTransparentMesh: 1
+--- !u!1 &1572783020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1572783022}
+  - component: {fileID: 1572783021}
+  m_Layer: 0
+  m_Name: MusicPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1572783021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572783020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37c1bda132cad144b76b5c6bf32172d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSong: Overworld
+--- !u!4 &1572783022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572783020}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11428904, y: 0.50449324, z: -0.042394627}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1975584751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,3 +1082,4 @@ SceneRoots:
   - {fileID: 613235220}
   - {fileID: 2004025415}
   - {fileID: 937350798}
+  - {fileID: 1572783022}

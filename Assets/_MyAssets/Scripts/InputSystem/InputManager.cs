@@ -7,22 +7,24 @@ using UnityEngine.InputSystem;
 public class InputManager : MonoBehaviour
 {
     //[SerializeField] MovementController characaterController;
-    [SerializeField] PlayerInput playerInput;
+    PlayerInput playerInput;
 
     [SerializeField] PlayerController playerController;
+    WeaponHandler weaponHandler;
 
     private void Awake() {
         playerInput = GetComponent<PlayerInput>();
+        weaponHandler = playerController.GetComponent<WeaponHandler>();
     }
 
-    public void ActionA()
+    public void ActionA(InputAction.CallbackContext context)
     {
-        Debug.Log("Action A");
+        weaponHandler.AAction(playerController.lookDirection);
     }
 
-    public void ActionB()
+    public void ActionB(InputAction.CallbackContext context)
     {
-        Debug.Log("Action B");
+        weaponHandler.BAction(playerController.lookDirection);
     }
 
     public void Movement(InputAction.CallbackContext context)
