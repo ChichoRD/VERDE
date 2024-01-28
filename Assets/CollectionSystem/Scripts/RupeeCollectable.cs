@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RupeeCollectable : MonoBehaviour, ICollectable
 {
-    LinkStats stats;
+    [SerializeField] LinkStats stats;
     int rupeeAmount = 1;
 
     public void Collect()

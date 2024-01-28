@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HeartCollectable : MonoBehaviour, ICollectable
 {
-    LinkStats stats;
+    [SerializeField] LinkStats stats;
 
     public void Collect()
     {

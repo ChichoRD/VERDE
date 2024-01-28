@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BombCollectable : MonoBehaviour
+public class BombCollectable : MonoBehaviour, ICollectable
 {
-    LinkStats stats;
+    [SerializeField] LinkStats stats;
     int bombAmount = 4;
 
     public void Collect()
