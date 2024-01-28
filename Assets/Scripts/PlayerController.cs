@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private Sword sword;
     private float xAxis;
     private float yAxis;
     private Rigidbody2D rb;
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sword = GetComponent<Sword>();
         rb = GetComponent<Rigidbody2D>();
         lookDirection = Vector2.down;
     }
@@ -29,7 +31,15 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        direction = new Vector2(xAxis, yAxis).normalized;
+        if (sword.attacking)
+        {
+            direction = Vector2.zero;
+        }
+        else
+        {
+            direction = new Vector2(xAxis, yAxis).normalized;
+        }
+
         rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
 
         if (direction.magnitude > 0)

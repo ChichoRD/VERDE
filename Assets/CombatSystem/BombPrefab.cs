@@ -5,11 +5,17 @@ using UnityEngine;
 
 public class BombPrefab : MonoBehaviour
 {
+    public Animator animator;
     Transform _myTransform;
     [SerializeField]
     float explodeTime = 1f;
+
+    [SerializeField]
+    float preparationTime = 1f;
+
     [SerializeField]
     int damage = 1;
+
     float currentTime = 0f;
     float currentTime2 = 0f;
 
@@ -36,12 +42,10 @@ public class BombPrefab : MonoBehaviour
         //Esperar por 1 segundo segun el video
         currentTime = currentTime + Time.deltaTime;
 
-        if (currentTime > explodeTime)
+        if (currentTime > preparationTime)
         {
             currentTime2 = currentTime2 + Time.deltaTime;
             //Cambiar el sprite de la bomba en el animator
-
-            //Crear hitbox de la explosion
             
             explosion.enabled = true;
 

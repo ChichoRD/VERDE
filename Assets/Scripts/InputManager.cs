@@ -14,6 +14,7 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        
         xInput = Input.GetAxis("Horizontal");
         yInput = Input.GetAxis("Vertical");
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
@@ -33,7 +34,7 @@ public class InputManager : MonoBehaviour
         }
 
         //ATAQUE
-
+        
         if (Input.GetKeyDown(KeyCode.Mouse0)) //A
         {
             weaponHandler.AAction(controller.lookDirection);

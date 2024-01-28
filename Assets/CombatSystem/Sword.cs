@@ -5,33 +5,30 @@ using UnityEngine;
 
 public class Sword : MonoBehaviour, IWeapon
 {
-    int damage;
+   
     [SerializeField]
-    private Collider2D hitbox;
+    private GameObject swordHitbox;
+    private GameObject currentHitbox;
+    
 
-    public void SwordFinish()
-    {
-        Destroy(hitbox);
-    }
+    public bool attacking = false; //cooldown de atacar. EL ANIMATOR ACCEDE A ESTA VARIABLE PARA COMPROBAR SI ESTA ATACANDO O NO
 
     public void Use(Vector2 playerPosition, Vector2 playerDirection)
     {
         Debug.Log("Sword Attack");
 
-        //Instanciar una hitbox
+        
+        if(!attacking) //si no esta atacando, puedes atacar
+        {
+            //llamada al animator
+            attacking = true;
+            currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
+            currentHitbox.GetComponent<SwordHitbox>().playerCollider = GetComponent<Collider2D>();
+            currentHitbox.GetComponent<SwordHitbox>().referencedSword = this;
 
-                    //Collider2D collision = Physics2D.OverlapCircle(posicion, 3);
-        Instantiate(hitbox, playerPosition + playerDirection, Quaternion.LookRotation(playerDirection));
-
-        //Recibir evento de fin de animacion y desactivar hitbox
-
-        //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
-
-
-
-    }
-    void Start()
-    {
+            //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
+        }
 
     }
+   
 }
