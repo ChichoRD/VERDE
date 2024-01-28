@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void ChangeStateOfGame(GameState state) {
+    public void ChangeStateOfGame(GameState state) {
         switch (state) {
             case GameState.Menu:
                 break;

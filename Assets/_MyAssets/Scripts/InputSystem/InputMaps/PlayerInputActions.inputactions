@@ -7,12 +7,12 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "PassThrough",
+                    "type": "Value",
                     "id": "ff8ca4e9-1b91-45ee-b8df-f82d2b03f126",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "ActionA",
@@ -59,7 +59,7 @@
                 {
                     "name": "down",
                     "id": "031f6e8f-0c6e-4b60-bc86-3eaaf14c413b",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -12,12 +12,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 10f;
     private Vector2 direction;
     public Vector2 lookDirection;
-    public void SetHorizontalInput(float x)
-    {
-        playerInput = GetComponent<InputActionAsset>();
-        rb = GetComponent<Rigidbody2D>();
 
-    }
 
     private void OnEnable()
     {
@@ -29,27 +24,28 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (sword.attacking)
-        {
-            direction = Vector2.zero;
-        }
-        else
-        {
-            direction = new Vector2(xAxis, yAxis).normalized;
-        }
+        //if (sword.attacking)
+        //{
+        //    direction = Vector2.zero;
+        //}
+        //else
+        //{
+        //    direction = new Vector2(xAxis, yAxis).normalized;
+        //}
 
-        rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
+        //rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
 
-        if (direction.magnitude > 0)
-        {
-            lookDirection = direction;
-        }
-        else lookDirection = lookDirection;
+        //if (direction.magnitude > 0)
+        //{
+        //    lookDirection = direction;
+        //}
+        //else lookDirection = lookDirection;
 
     }
-    private void ReadInput(InputAction.CallbackContext context) 
-    { 
-        var input = context.ReadValue<Vector2>();
+
+    public void ReadInput(Vector2 input) 
+    {
+        print(input);
         rb.velocity = input * moveSpeed;
     }
     

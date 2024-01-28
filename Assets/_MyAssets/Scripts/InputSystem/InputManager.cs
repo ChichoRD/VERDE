@@ -9,6 +9,8 @@ public class InputManager : MonoBehaviour
     //[SerializeField] MovementController characaterController;
     [SerializeField] PlayerInput playerInput;
 
+    [SerializeField] PlayerController playerController;
+
     private void Awake() {
         playerInput = GetComponent<PlayerInput>();
     }
@@ -25,7 +27,7 @@ public class InputManager : MonoBehaviour
 
     public void Movement(InputAction.CallbackContext context)
     {
-        context.ReadValue<Vector2>();
+        playerController.ReadInput(context.ReadValue<Vector2>());
     }
 
     void OnStateChange(GameState state)
