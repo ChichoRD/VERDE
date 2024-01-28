@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7221586517497992193
 Transform:
@@ -32,7 +32,7 @@ Transform:
   m_Children:
   - {fileID: 6322007719378456340}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8625161606832271991
 BoxCollider2D:
@@ -77,7 +77,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 28.444445, y: 16}
+  m_Size: {x: 16, y: 11}
   m_EdgeRadius: 0
 --- !u!114 &4840001862027670579
 MonoBehaviour:
@@ -145,6 +145,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7221586517497992193}
     m_Modifications:
+    - target: {fileID: 1187758439639996411, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6520163992109880929, guid: a2bdd9b89a9735047aeb55aa2b6db857, type: 3}
       propertyPath: m_Name
       value: Area VCam
