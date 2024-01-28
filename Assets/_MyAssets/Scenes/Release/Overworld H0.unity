@@ -580,11 +580,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.16666667
+      value: 0.16666666
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.6666667
+      value: 0.6671325
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -812,10 +812,12 @@ GameObject:
   - component: {fileID: 2004025414}
   - component: {fileID: 2004025413}
   - component: {fileID: 2004025412}
+  - component: {fileID: 2004025416}
   - component: {fileID: 2004025411}
   - component: {fileID: 2004025410}
   - component: {fileID: 2004025409}
   - component: {fileID: 2004025408}
+  - component: {fileID: 2004025417}
   m_Layer: 0
   m_Name: Zelda
   m_TagString: Untagged
@@ -1016,6 +1018,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2004025416
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004025407}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 211dab4d1aedc0848b51f57ef66b0161, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2004025417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004025407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04288e405eaece439507b338a5e1a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4671836136637794114
 PrefabInstance:
   m_ObjectHideFlags: 0
