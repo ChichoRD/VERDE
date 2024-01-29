@@ -7,17 +7,25 @@ public class WeaponHandler : MonoBehaviour
 {
     IWeapon[] weapons = new IWeapon[2];
     Transform _myTransform;
-
-    UnityEvent actionEvent = new UnityEvent();
+    [SerializeField]
+    UnityEvent onUseItem = new UnityEvent();
 
     public void AAction(Vector2 direction)
     {
-        weapons[0].Use(_myTransform.position , direction);
+        if(weapons[0].Use(_myTransform.position , direction))
+        {
+            onUseItem.Invoke();
+
+        }
     }
 
     public void BAction(Vector2 direction)
     {
-        weapons[1].Use(_myTransform.position ,direction);
+        if (weapons[1].Use(_myTransform.position, direction))
+        {
+            onUseItem.Invoke();
+
+        }
     }
 
     private void Start()

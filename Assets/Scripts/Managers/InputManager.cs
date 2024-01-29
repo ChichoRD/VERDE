@@ -19,13 +19,21 @@ public class InputManager : MonoBehaviour
 
     public void ActionA(InputAction.CallbackContext context)
     {
-        weaponHandler.AAction(playerController.lookDirection);
-        playerController.SwordAttacking();
+        if (context.performed)
+        {
+            weaponHandler.AAction(playerController.lookDirection);
+        }
+        
+        
     }
 
     public void ActionB(InputAction.CallbackContext context)
     {
-        weaponHandler.BAction(playerController.lookDirection);
+        if (context.performed)
+        {
+            weaponHandler.BAction(playerController.lookDirection);
+        }
+        
     }
 
     public void Movement(InputAction.CallbackContext context)

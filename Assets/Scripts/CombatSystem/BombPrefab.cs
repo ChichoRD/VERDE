@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BombPrefab : MonoBehaviour
 {
@@ -12,6 +13,13 @@ public class BombPrefab : MonoBehaviour
 
     [SerializeField]
     float preparationTime = 1f;
+
+    [SerializeField]
+    float linkStopTime = 0.5f;
+    bool isStopped = true;
+
+    [SerializeField]
+    UnityEvent enableInput = new UnityEvent();
 
     [SerializeField]
     int damage = 1;
@@ -41,6 +49,12 @@ public class BombPrefab : MonoBehaviour
     {
         //Esperar por 1 segundo segun el video
         currentTime = currentTime + Time.deltaTime;
+
+        if (currentTime>linkStopTime && isStopped)
+        {
+            isStopped = false;
+            enableInput.Invoke();
+        }
 
         if (currentTime > preparationTime)
         {
