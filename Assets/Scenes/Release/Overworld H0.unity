@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 365392748}
   - component: {fileID: 365392747}
-  - component: {fileID: 365392746}
   - component: {fileID: 365392745}
   m_Layer: 0
   m_Name: MiniMap
@@ -186,14 +185,6 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!81 &365392746
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365392744}
-  m_Enabled: 1
 --- !u!20 &365392747
 Camera:
   m_ObjectHideFlags: 0
@@ -721,7 +712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1692282201, guid: d1fe7c5673842f04d879e56ab3febbf6, type: 3}
+  m_Sprite: {fileID: 418130729, guid: d1fe7c5673842f04d879e56ab3febbf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -797,7 +788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.17864585
+      value: 0.17767295
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -805,7 +796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.6428572
+      value: 0.6433064
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -888,7 +879,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -516969485, guid: d1fe7c5673842f04d879e56ab3febbf6, type: 3}
+  m_Sprite: {fileID: -1242933473, guid: d1fe7c5673842f04d879e56ab3febbf6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
