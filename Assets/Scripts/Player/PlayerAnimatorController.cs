@@ -7,17 +7,19 @@ public class PlayerAnimatorController : MonoBehaviour
     private Animator _myAnimator;
     private int xAxis;
     private int yAxis;
+    private Rigidbody2D rb;
     private bool isMooving;
     // Start is called before the first frame update
     void Start()
     {
         _myAnimator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (rb.velocity.y > 0.1f)
         {
             xAxis = 0;
             yAxis = 1;
@@ -26,7 +28,7 @@ public class PlayerAnimatorController : MonoBehaviour
             _myAnimator.SetInteger("xInput", xAxis);
             _myAnimator.SetInteger("yInput", yAxis);
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (rb.velocity.y < -0.1f)
         {
             xAxis = 0;
             yAxis = -1;
@@ -35,7 +37,7 @@ public class PlayerAnimatorController : MonoBehaviour
             _myAnimator.SetInteger("xInput", xAxis);
             _myAnimator.SetInteger("yInput", yAxis);
         }
-        else if(Input.GetKey(KeyCode.D))
+        else if(rb.velocity.x > 0.1f)
         {
             xAxis = 1;
             yAxis = 0;
@@ -44,7 +46,7 @@ public class PlayerAnimatorController : MonoBehaviour
             _myAnimator.SetInteger("xInput", xAxis);
             _myAnimator.SetInteger("yInput", yAxis);
         }
-        else if(Input.GetKey(KeyCode.A))
+        else if(rb.velocity.x < -0.1f)
         {
             xAxis = -1;
             yAxis = 0;
