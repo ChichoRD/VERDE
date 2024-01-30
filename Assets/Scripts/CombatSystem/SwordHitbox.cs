@@ -30,15 +30,17 @@ public class SwordHitbox : MonoBehaviour
         if (currentAnimTime > finishAnimTime)
         {
             Destroy(gameObject);
-            //referencedSword.attacking = false;
+            PlayerAnimatorCall();
         }
     }
     private void OnDestroy()
     {
         onDestroy?.Invoke();
     }
+
+    //llama al metodo de animator
     public void PlayerAnimatorCall()
     {
-        _animatorController.onAttackEnter(false);
+        _animatorController.onUsingItem(false, 0);
     }
 }

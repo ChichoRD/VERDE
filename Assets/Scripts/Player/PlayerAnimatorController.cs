@@ -9,12 +9,22 @@ public class PlayerAnimatorController : MonoBehaviour
     private int yAxis;
     private bool isMooving;
 
-
-    public void onAttackEnter(bool boolean)
+    //Recibe booleano en animator de si esta usando una accion
+    public void onUsingItem(bool boolean, int actionType)
     {
-        _myAnimator.SetBool("IsAttacking", boolean);
-        Debug.Log(boolean);
+        if (actionType == 0) //SI ACTIONTYPE ES 0, ANIMACION DE USAR ITEM
+        {
+            _myAnimator.SetBool("IsAttacking", boolean);
+        }
+        else if (actionType == 1) //SI ACTIONTYPE ES 1, ANIMACION DE USAR ITEM
+        {
+            _myAnimator.SetBool("IsUsingItem", boolean);
+        }
+
+        Debug.Log(boolean + " "+actionType);
+        
     }
+
     // Start is called before the first frame update
     void Start()
     {

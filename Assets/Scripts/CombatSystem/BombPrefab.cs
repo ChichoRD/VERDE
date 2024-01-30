@@ -56,6 +56,7 @@ public class BombPrefab : MonoBehaviour
         {
             isStopped = false;
             enableInput.Invoke();
+            PlayerAnimatorCall();
         }
 
         if (currentTime > preparationTime)
@@ -80,9 +81,11 @@ public class BombPrefab : MonoBehaviour
         explosion.enabled = false;
         _myTransform = transform;
     }
+
+    
     public void PlayerAnimatorCall()
     {
-        _animationController.onAttackEnter(false);
+        _animationController.onUsingItem(false, 1);
     }
 
 }

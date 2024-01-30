@@ -9,14 +9,14 @@ public class Sword : MonoBehaviour, IWeapon
     [SerializeField]
     private GameObject swordHitbox;
     private GameObject currentHitbox;
-    
+    PlayerAnimatorController playerAnimatorController;
 
-   
+
     public bool Use(Vector2 playerPosition, Vector2 playerDirection)
     {
         Debug.Log("Sword Attack");
 
-            //llamada al animator
+        playerAnimatorController.onUsingItem(true, 0);
 
             currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
             currentHitbox.GetComponent<SwordHitbox>().playerCollider = GetComponent<Collider2D>();
@@ -26,5 +26,8 @@ public class Sword : MonoBehaviour, IWeapon
 
         return true;
     }
-   
+    private void Start()
+    {
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
 }

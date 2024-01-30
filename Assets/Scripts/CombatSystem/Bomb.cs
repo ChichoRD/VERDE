@@ -6,7 +6,7 @@ public class Bomb : MonoBehaviour, IWeapon
 {
     [SerializeField]
     GameObject bombPrefab;
-    Animator animator;
+    PlayerAnimatorController playerAnimatorController;
     [SerializeField]
     WeaponHandler weaponHandler;
 
@@ -17,18 +17,22 @@ public class Bomb : MonoBehaviour, IWeapon
     
     public bool Use(Vector2 playerPosition, Vector2 playerDirection)
     {
-        animator = GetComponent<Animator>();
+        
         //Checkear si bombas mayor a 0
         if (status.bombCount > 0 && instantiatedBomb == null)
         {
             status.bombCount--;
-            //CAMBIAR A ANIMACION DE PONER BOMBA
+            playerAnimatorController.onUsingItem(true, 1);
             instantiatedBomb = Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity);
-            instantiatedBomb.GetComponent<BombPrefab>()._animationController = GetComponent<PlayerAnimatorController>();
+            instantiatedBomb.GetComponent<BombPrefab>()._animationController = playerAnimatorController;
             return true;
         }
         else return false;
         
     }
-    
+    private void Start()
+    {
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
+
 }

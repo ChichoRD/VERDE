@@ -9,6 +9,7 @@ public class WeaponHandler : MonoBehaviour
     Transform _myTransform;
     [SerializeField]
     UnityEvent onUseItem = new UnityEvent();
+    
 
     public void AAction(Vector2 direction)
     {
@@ -30,7 +31,7 @@ public class WeaponHandler : MonoBehaviour
     private void Start()
     {
         _myTransform = transform;
-
+        
         //BORRAR MAS ADELANTE
         weapons[0] = GetComponent<Sword>();
         weapons[1] = GetComponent<Bomb>();
