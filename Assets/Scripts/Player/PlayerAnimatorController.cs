@@ -8,6 +8,13 @@ public class PlayerAnimatorController : MonoBehaviour
     private int xAxis;
     private int yAxis;
     private bool isMooving;
+
+
+    public void onAttackEnter(bool boolean)
+    {
+        _myAnimator.SetBool("IsAttacking", boolean);
+        Debug.Log(boolean);
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +24,7 @@ public class PlayerAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKey(KeyCode.W))
         {
             xAxis = 0;

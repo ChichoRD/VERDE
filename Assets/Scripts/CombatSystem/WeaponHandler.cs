@@ -24,7 +24,6 @@ public class WeaponHandler : MonoBehaviour
         if (weapons[1].Use(_myTransform.position, direction))
         {
             onUseItem.Invoke();
-
         }
     }
 

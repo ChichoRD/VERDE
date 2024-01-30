@@ -20,6 +20,7 @@ public class Sword : MonoBehaviour, IWeapon
 
             currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
             currentHitbox.GetComponent<SwordHitbox>().playerCollider = GetComponent<Collider2D>();
+        currentHitbox.GetComponent<SwordHitbox>()._animatorController = GetComponent<PlayerAnimatorController>();
 
         //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
 

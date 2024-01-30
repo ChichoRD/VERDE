@@ -11,6 +11,8 @@ public class BombPrefab : MonoBehaviour
     [SerializeField]
     float explodeTime = 1f;
 
+    public PlayerAnimatorController _animationController;
+
     [SerializeField]
     float preparationTime = 1f;
 
@@ -77,6 +79,10 @@ public class BombPrefab : MonoBehaviour
         explosion = GetComponent<Collider2D>();
         explosion.enabled = false;
         _myTransform = transform;
+    }
+    public void PlayerAnimatorCall()
+    {
+        _animationController.onAttackEnter(false);
     }
 
 }

@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3678f7813b95e4a4984c46ddbfe9d3f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referencedSword: {fileID: 0}
+  _animatorController: {fileID: 0}
   playerCollider: {fileID: 0}
   damage: 1
   finishAnimTime: 0.5
@@ -153,6 +153,18 @@ MonoBehaviour:
       - m_Target: {fileID: -944628639613478452, guid: c0f917d8373d8c849a8dc4e22bada808, type: 3}
         m_TargetAssemblyTypeName: UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem
         m_MethodName: Enable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5034443769952182492}
+        m_TargetAssemblyTypeName: SwordHitbox, Assembly-CSharp
+        m_MethodName: PlayerAnimatorCall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

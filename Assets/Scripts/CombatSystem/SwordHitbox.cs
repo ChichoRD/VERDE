@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class SwordHitbox : MonoBehaviour
 {
-    
+    public PlayerAnimatorController _animatorController;
     public Collider2D playerCollider;
     [SerializeField]
     private int damage = 1;
@@ -36,5 +36,9 @@ public class SwordHitbox : MonoBehaviour
     private void OnDestroy()
     {
         onDestroy?.Invoke();
+    }
+    public void PlayerAnimatorCall()
+    {
+        _animatorController.onAttackEnter(false);
     }
 }

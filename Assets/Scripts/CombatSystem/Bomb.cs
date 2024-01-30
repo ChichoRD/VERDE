@@ -19,15 +19,16 @@ public class Bomb : MonoBehaviour, IWeapon
     {
         animator = GetComponent<Animator>();
         //Checkear si bombas mayor a 0
-        if (status.bombCount>0 && instantiatedBomb==null)
+        if (status.bombCount > 0 && instantiatedBomb == null)
         {
             status.bombCount--;
-            Debug.Log("Bomb Attack");
             //CAMBIAR A ANIMACION DE PONER BOMBA
             instantiatedBomb = Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity);
+            instantiatedBomb.GetComponent<BombPrefab>()._animationController = GetComponent<PlayerAnimatorController>();
+            return true;
         }
-
-        return (status.bombCount > 0 && instantiatedBomb ==null);
+        else return false;
+        
     }
     
 }
