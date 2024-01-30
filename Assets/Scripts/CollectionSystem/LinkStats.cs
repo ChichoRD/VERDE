@@ -7,6 +7,15 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "LinkStats", menuName = "MAP-World-Inc/LinkStats", order = 0)]
 public class LinkStats : ScriptableObject 
 {
+    [SerializeField] bool _hasSword;
+    public bool hasSword {
+        get { return _hasSword; }
+        set {
+            _hasSword = value;
+            OnHasSwordChange.Invoke(_hasSword);
+        }
+    }
+
     [SerializeField] int _maxHealth;
     public int maxHealth
     {
@@ -62,6 +71,7 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    public UnityEvent<bool> OnHasSwordChange = new UnityEvent<bool>();
     public UnityEvent<int> OnMaxHealthChange = new UnityEvent<int>();
     public UnityEvent<int> OnCurrentHealthChange = new UnityEvent<int>();
     public UnityEvent<int> OnBombChange = new UnityEvent<int>();
@@ -71,6 +81,7 @@ public class LinkStats : ScriptableObject
 
     public void Reset()
     {
+        hasSword = false;
         bombCount = 0;
         rupeeCount = 0;
         keyCount = 0;
