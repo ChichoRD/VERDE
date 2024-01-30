@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         } else {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+            transform.GetChild(0).gameObject.SetActive(true);
         }
     }
 
