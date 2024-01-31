@@ -9,10 +9,25 @@ public class Sword : MonoBehaviour, IWeapon
     [SerializeField]
     private GameObject swordHitbox;
     private GameObject currentHitbox;
-    
+    private PlayerAnimatorController playerAnimatorController;
 
-    public bool attacking = false; //cooldown de atacar. EL ANIMATOR ACCEDE A ESTA VARIABLE PARA COMPROBAR SI ESTA ATACANDO O NO
-
+    private bool _attacking;
+    public bool attacking
+    {
+        get
+        {
+            return _attacking;
+        }
+        set
+        {
+            _attacking = value;
+            playerAnimatorController.IsAttacking(value);
+        }
+    } //cooldown de atacar. EL ANIMATOR ACCEDE A ESTA VARIABLE PARA COMPROBAR SI ESTA ATACANDO O NO
+    void Start()
+    {
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
     public void Use(Vector2 playerPosition, Vector2 playerDirection)
     {
         Debug.Log("Sword Attack");
@@ -28,7 +43,6 @@ public class Sword : MonoBehaviour, IWeapon
 
             //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
         }
-
     }
    
 }
