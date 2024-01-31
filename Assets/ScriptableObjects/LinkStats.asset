@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LinkStats
   m_EditorClassIdentifier: 
   currentHealth: 0
-  bombCount: 0
+  bombCount: 74
   rupeeCount: 0
   keyCount: 0

@@ -29,20 +29,27 @@ public class Sword : MonoBehaviour, IWeapon
         playerAnimatorController = GetComponent<PlayerAnimatorController>();
     }
     public void Use(Vector2 playerPosition, Vector2 playerDirection)
+    PlayerAnimatorController playerAnimatorController;
+
+
+    public bool Use(Vector2 playerPosition, Vector2 playerDirection)
     {
         Debug.Log("Sword Attack");
 
-        
-        if(!attacking) //si no esta atacando, puedes atacar
-        {
-            //llamada al animator
-            attacking = true;
+        playerAnimatorController.onUsingItem(true, 0);
+
             currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
             currentHitbox.GetComponent<SwordHitbox>().playerCollider = GetComponent<Collider2D>();
-            currentHitbox.GetComponent<SwordHitbox>().referencedSword = this;
+        currentHitbox.GetComponent<SwordHitbox>()._animatorController = GetComponent<PlayerAnimatorController>();
 
             //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
         }
+        //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
+
+        return true;
     }
-   
+    private void Start()
+    {
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
 }
