@@ -12,7 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 144e2d6ddec5f7f44a25aadb30eb280e, type: 3}
   m_Name: LinkStats
   m_EditorClassIdentifier: 
-  currentHealth: 0
-  bombCount: 74
-  rupeeCount: 0
-  keyCount: 0
+  _currentHealth: 0
+  _bombCount: 5
+  _rupeeCount: 0
+  _keyCount: 0
+  OnHealthChange:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBombChange:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRupeeChange:
+    m_PersistentCalls:
+      m_Calls: []
+  OnKeyChange:
+    m_PersistentCalls:
+      m_Calls: []
