@@ -45243,6 +45243,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Area
       objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 6639160091181354446}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_Priority
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Cinemachine.CinemachineVirtualCameraBase, Cinemachine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4840001862027670579, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+      propertyPath: <TriggerExit>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7221586517497992193, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -45301,6 +45329,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7221586517497992193, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
   m_PrefabInstance: {fileID: 7844239190418959743}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6639160091181354446 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3530642986109903025, guid: 7142a6fa93bd30f4d8e6562bd0e2d0b4, type: 3}
+  m_PrefabInstance: {fileID: 7844239190418959743}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8260176332844250144
 PrefabInstance:
   m_ObjectHideFlags: 0
