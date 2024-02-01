@@ -7,6 +7,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "LinkStats", menuName = "MAP-World-Inc/LinkStats", order = 0)]
 public class LinkStats : ScriptableObject 
 {
+    [SerializeField]
     int _currentHealth;
     public int currentHealth
     {
@@ -18,6 +19,7 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    [SerializeField]
     int _bombCount;
     public int bombCount
     {
@@ -29,6 +31,7 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    [SerializeField]
     int _rupeeCount;
     public int rupeeCount
     {
@@ -40,6 +43,7 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    [SerializeField]
     int _keyCount;
     public int keyCount
     {

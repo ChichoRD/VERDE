@@ -425,27 +425,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Link_cosas_61
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 266
-        width: 6
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a11152f1ef3c5224ea8695e9f2b0f303
-      internalID: -1276559163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Link_cosas_91
       rect:
         serializedVersion: 2
@@ -474,8 +453,8 @@ TextureImporter:
         y: 236
         width: 16
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7222222}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,8 +474,8 @@ TextureImporter:
         y: 240
         width: 15
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.67391306}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,8 +495,8 @@ TextureImporter:
         y: 244
         width: 13
         height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6052632}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -810,8 +789,8 @@ TextureImporter:
         y: 217
         width: 27
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -831,8 +810,8 @@ TextureImporter:
         y: 217
         width: 23
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.32608697, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -852,8 +831,8 @@ TextureImporter:
         y: 217
         width: 19
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.39473686, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1146,8 +1125,8 @@ TextureImporter:
         y: 185
         width: 16
         height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2857143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1167,8 +1146,8 @@ TextureImporter:
         y: 185
         width: 12
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2962963}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1188,8 +1167,8 @@ TextureImporter:
         y: 185
         width: 12
         height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42105263}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4192,6 +4171,7 @@ TextureImporter:
       Link_cosas_97: -1639103089
       Link_cosas_98: 1448222602
       Link_cosas_99: -845434152
+      Link_main_0: 10854649
       basic_back_1: 1467070054
       basic_back_2: -1662190937
       basic_front_1: 717637438
