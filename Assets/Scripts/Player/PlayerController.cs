@@ -22,8 +22,8 @@ public class PlayerController : MonoBehaviour
         
         
 
-            // Versión 1 con matemáticas
-
+            // Versiï¿½n 1 con matemï¿½ticas
+            /**
             Vector2 base0 = Vector2.right;
             Vector2 base1 = Vector2.up;
 
@@ -48,31 +48,31 @@ public class PlayerController : MonoBehaviour
                 lookDirection = orto.normalized;
             }
 
+            **/
+            // Versiï¿½n 2 con ifs
 
-            // Versión 2 con ifs
+            if(rb.velocity.x != 0 && input.y != 0)
+            {
+               rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
+            }
 
-            //if(rb.velocity.x != 0 && input.y != 0)
-            //{
-            //    rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
-            //}
+            else if(rb.velocity.y != 0 && input.x != 0)
+            {
+               rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
+            }
 
-            //else if(rb.velocity.y != 0 && input.x != 0)
-            //{
-            //    rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
-            //}
-
-            //else if(input.x != 0)
-            //{
-            //    rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
-            //}
-            //else if(input.y != 0)
-            //{
-            //    rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
-            //}
-            //else
-            //{
-            //    rb.velocity = Vector2.zero;
-            //}
+            else if(input.x != 0)
+            {
+               rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
+            }
+            else if(input.y != 0)
+            {
+               rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
+            }
+            else
+            {
+               rb.velocity = Vector2.zero;
+            }
 
         
     }
