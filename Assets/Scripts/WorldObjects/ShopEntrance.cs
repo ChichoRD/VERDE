@@ -10,6 +10,7 @@ public class ShopEntrance : MonoBehaviour
 
     [SerializeField] private ShopInfo shopInfo;
 
+    [SerializeField] private string targetScene = "Shop";
 
     public void SetIsVisible(bool visible)  {
         isVisible = visible;
@@ -19,7 +20,7 @@ public class ShopEntrance : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.GetComponent<PlayerController>() && isVisible) {
             GameManager.Instance.shopInfo = shopInfo;
-            SceneManager.LoadScene("Shop");
+            SceneManager.LoadScene(targetScene);
         }
     }
 

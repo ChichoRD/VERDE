@@ -175,5 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51ced96e9a942c14aae85d144cd3ce1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isVisible: 0
+  isVisible: 1
   shopInfo: {fileID: 11400000, guid: 6f18c1186080dae4a8f4d1224cad9901, type: 2}
+  targetScene: Shop
