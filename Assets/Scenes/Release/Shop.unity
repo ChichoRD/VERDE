@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _typewritingDelayServiceObject: {fileID: 481680464}
-  _relative: 1
+  _relative: 0
 --- !u!1 &613235216
 GameObject:
   m_ObjectHideFlags: 0
