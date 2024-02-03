@@ -7,7 +7,7 @@ public class BombCollectable : MonoBehaviour, ICollectable
     [SerializeField] LinkStats stats;
     int bombAmount = 4;
 
-    public void Collect()
+    public void Collect(Collector collector)
     {
         stats.bombCount += bombAmount;
         Destroy(gameObject);

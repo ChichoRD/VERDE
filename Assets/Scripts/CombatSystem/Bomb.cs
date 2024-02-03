@@ -4,24 +4,35 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour, IWeapon
 {
-    int amount=1; //cambiar esto
     [SerializeField]
     GameObject bombPrefab;
-    Animator animator;
+    PlayerAnimatorController playerAnimatorController;
     [SerializeField]
     WeaponHandler weaponHandler;
+
+    [SerializeField]
+    LinkStats status;
+
+    GameObject instantiatedBomb;
     
-    public void Use(Vector2 playerPosition, Vector2 playerDirection)
+    public bool Use(Vector2 playerPosition, Vector2 playerDirection)
     {
-        animator = GetComponent<Animator>();
+        
         //Checkear si bombas mayor a 0
-        if (amount > 0)
+        if (status.bombCount > 0 && instantiatedBomb == null)
         {
-            Debug.Log("Bomb Attack");
-            //CAMBIAR A ANIMACION DE PONER BOMBA
-            Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity);
-            
+            status.bombCount--;
+            playerAnimatorController.onUsingItem(true, 1);
+            instantiatedBomb = Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity);
+            instantiatedBomb.GetComponent<BombPrefab>()._animationController = playerAnimatorController;
+            return true;
         }
+        else return false;
+        
     }
-    
+    private void Start()
+    {
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
+
 }

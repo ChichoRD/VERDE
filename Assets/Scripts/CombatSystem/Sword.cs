@@ -9,26 +9,34 @@ public class Sword : MonoBehaviour, IWeapon
     [SerializeField]
     private GameObject swordHitbox;
     private GameObject currentHitbox;
-    
+    private PlayerAnimatorController playerAnimatorController;
+    IWeapon attachedSwordBeam;
+    [SerializeField] LinkStats linkStats;
 
-    public bool attacking = false; //cooldown de atacar. EL ANIMATOR ACCEDE A ESTA VARIABLE PARA COMPROBAR SI ESTA ATACANDO O NO
-
-    public void Use(Vector2 playerPosition, Vector2 playerDirection)
+    void Start()
     {
-        Debug.Log("Sword Attack");
+        playerAnimatorController = GetComponent<PlayerAnimatorController>();
+    }
 
-        
-        if(!attacking) //si no esta atacando, puedes atacar
+    public bool Use(Vector2 playerPosition, Vector2 playerDirection)
+    {
+        if(linkStats.hasSword)
         {
-            //llamada al animator
-            attacking = true;
+            playerAnimatorController.onUsingItem(true, 0);
+
             currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
             currentHitbox.GetComponent<SwordHitbox>().playerCollider = GetComponent<Collider2D>();
-            currentHitbox.GetComponent<SwordHitbox>().referencedSword = this;
+            currentHitbox.GetComponent<SwordHitbox>()._animatorController = GetComponent<PlayerAnimatorController>();
 
-            //Checkear si Link está con la vida al completo. Si lo está, disparar un prefab de proyectil.
+            //Checkear si Link estï¿½ con la vida al completo. Si lo estï¿½, disparar un prefab de proyectil
+            //Checkear si Link estï¿½ con la vida al completo. Si lo estï¿½, disparar un prefab de proyectil.
+
+            if(linkStats.currentHealth >= linkStats.maxHealth)
+            {
+                //attachedSwordBeam.Use(playerPosition, playerDirection);
+            }
+ 
         }
-
+        return linkStats.hasSword;
     }
-   
 }

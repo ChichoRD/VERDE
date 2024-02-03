@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BombPrefab : MonoBehaviour
 {
@@ -10,8 +11,17 @@ public class BombPrefab : MonoBehaviour
     [SerializeField]
     float explodeTime = 1f;
 
+    public PlayerAnimatorController _animationController;
+
     [SerializeField]
     float preparationTime = 1f;
+
+    [SerializeField]
+    float linkStopTime = 0.5f;
+    bool isStopped = true;
+
+    [SerializeField]
+    UnityEvent enableInput = new UnityEvent();
 
     [SerializeField]
     int damage = 1;
@@ -42,6 +52,13 @@ public class BombPrefab : MonoBehaviour
         //Esperar por 1 segundo segun el video
         currentTime = currentTime + Time.deltaTime;
 
+        if (currentTime>linkStopTime && isStopped)
+        {
+            isStopped = false;
+            enableInput.Invoke();
+            PlayerAnimatorCall();
+        }
+
         if (currentTime > preparationTime)
         {
             currentTime2 = currentTime2 + Time.deltaTime;
@@ -63,6 +80,12 @@ public class BombPrefab : MonoBehaviour
         explosion = GetComponent<Collider2D>();
         explosion.enabled = false;
         _myTransform = transform;
+    }
+
+    
+    public void PlayerAnimatorCall()
+    {
+        _animationController.onUsingItem(false, 1);
     }
 
 }

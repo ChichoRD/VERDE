@@ -7,7 +7,7 @@ public class RupeeCollectable : MonoBehaviour, ICollectable
     [SerializeField] LinkStats stats;
     int rupeeAmount = 1;
 
-    public void Collect()
+    public void Collect(Collector collector)
     {
         stats.rupeeCount += rupeeAmount;
         Destroy(gameObject);

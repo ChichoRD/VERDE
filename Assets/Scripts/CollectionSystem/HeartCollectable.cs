@@ -6,7 +6,7 @@ public class HeartCollectable : MonoBehaviour, ICollectable
 {
     [SerializeField] LinkStats stats;
 
-    public void Collect()
+    public void Collect(Collector collector)
     {
         stats.currentHealth++;
         Destroy(gameObject);
