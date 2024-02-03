@@ -1075,10 +1075,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.48083243
     y: 0
-    width: 1
-    height: 1
+    width: 0.42184326
+    height: 0.65628046
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1300,6 +1300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a0b3f37579178b4bb4bd5a513c07b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopInfo: {fileID: 0}
 --- !u!224 &954240190 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1684435052410712511, guid: d685711ef6158144399d95ac416130f8, type: 3}
