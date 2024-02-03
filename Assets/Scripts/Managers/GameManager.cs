@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get { return instance; } }
     UnityEvent<GameState> onGameStateChanged = new UnityEvent<GameState>();
 
+    public ShopInfo shopInfo;
+
     private void Awake() {
         if (instance != null && instance != this) {
             Destroy(this.gameObject);
