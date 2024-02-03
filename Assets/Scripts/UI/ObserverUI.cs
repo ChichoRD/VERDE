@@ -19,6 +19,9 @@ public class ObserverUI : MonoBehaviour
     private TMP_Text _rupeeAmountText;
 
     [SerializeField]
+    private GameObject[] _heartContainers;
+
+    [SerializeField]
     private GameObject[] _hearts;
 
     [SerializeField]
@@ -32,18 +35,19 @@ public class ObserverUI : MonoBehaviour
         _linkStats.OnBombChange.AddListener(OnBombChanged);
         _linkStats.OnKeyChange.AddListener(OnKeyChanged);
         _linkStats.OnRupeeChange.AddListener(OnRuppeChanged);
-        _linkStats.OnHealthChange.AddListener(OnHealthChanged);
-        _linkStats.OnTakeSword.AddListener(OnTakeSword);
+        _linkStats.OnCurrentHealthChange.AddListener(OnCurrentHealthChanged);
+        _linkStats.OnMaxHealthChange.AddListener(OnMaxHealthChanged);
+        _linkStats.OnHasSwordChange.AddListener(OnHasSwordChanged);
     }
-
 
     private void OnDestroy()
     {
         _linkStats.OnBombChange.RemoveListener(OnBombChanged);
         _linkStats.OnKeyChange.RemoveListener(OnKeyChanged);
         _linkStats.OnRupeeChange.RemoveListener(OnRuppeChanged);
-        _linkStats.OnHealthChange.RemoveListener(OnHealthChanged);
-        _linkStats.OnTakeSword.RemoveListener(OnTakeSword);
+        _linkStats.OnCurrentHealthChange.RemoveListener(OnCurrentHealthChanged);
+        _linkStats.OnMaxHealthChange.RemoveListener(OnMaxHealthChanged);
+        _linkStats.OnHasSwordChange.RemoveListener(OnHasSwordChanged);
     }
 
     private void OnBombChanged(int arg0)
@@ -61,14 +65,20 @@ public class ObserverUI : MonoBehaviour
         _rupeeAmountText.text = $"x{arg0}";
     }
 
-    private void OnHealthChanged(int arg0)
+    private void OnCurrentHealthChanged(int arg0)
     {
         for (int i = 0; i < _hearts.Length; i++)
             _hearts[i].SetActive(i < arg0);
     }
 
-    private void OnTakeSword()
+    private void OnMaxHealthChanged(int arg0)
     {
-        _sword.SetActive(true);
+        for (int i = 0; i < _heartContainers.Length; i++)
+            _heartContainers[i].SetActive(i < arg0);
+    }
+
+    private void OnHasSwordChanged(bool arg0)
+    {
+        _sword.SetActive(arg0);
     }
 }
