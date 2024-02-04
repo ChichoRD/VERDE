@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     public void ReadInput(Vector2 input) 
     {
 
-        if(true) {
+        if(rb != null) {
 
             if (rb.velocity.x != 0 && input.y != 0) {
                 rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
