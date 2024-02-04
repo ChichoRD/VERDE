@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 845089616469826719}
   - component: {fileID: 9068235115495089462}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: 'Debug: Detected'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 340445976299287513}
   - component: {fileID: 1436267285614233146}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Wait 0,5s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5162531822423460341}
   - component: {fileID: 1420845294485272709}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: IdleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,7 +154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5410439078307401480}
   - component: {fileID: 8075835451968338897}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Shoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704318040972876638}
   - component: {fileID: 1622305432378718994}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Shoot_State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927557548377335422}
   - component: {fileID: 7070109297625451219}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Wait 2s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,7 +297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7913533690023178286}
   - component: {fileID: 8855004154485016351}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: IdleState 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8109345373264887320}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5043813179072919959}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Behaviours
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7614966527937350746}
   - component: {fileID: 9085333549238341576}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 2363496926857828811}
   - component: {fileID: 4112726719820971027}
   - component: {fileID: 8484287938047249508}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,13 +570,13 @@ GameObject:
   - component: {fileID: 4497235000255387119}
   - component: {fileID: 5134435338606473384}
   - component: {fileID: 6511866892497561766}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Octorok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7265099983593255393
 Transform:
   m_ObjectHideFlags: 0
@@ -633,7 +633,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 1228241945, guid: 76eafd45d341296489dee7812f7ff73e, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5206062607013430704}
   - component: {fileID: 8832335194105902936}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: true
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8455264218411273931}
   - component: {fileID: 1538446427970063983}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: RandomMovement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7940225342585071845}
   - component: {fileID: 6595332810831758496}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: MoveState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -907,7 +907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6308001002921379271}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Conditions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
