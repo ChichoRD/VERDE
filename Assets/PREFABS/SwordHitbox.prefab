@@ -144,7 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animatorController: {fileID: 0}
-  playerCollider: {fileID: 0}
   damage: 1
   finishAnimTime: 0.5
   onDestroy:
@@ -162,3 +161,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128

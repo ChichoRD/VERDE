@@ -7,11 +7,12 @@ public class HealthSystem : MonoBehaviour
 
 
 {
-
     public UnityEvent<int> OnHealthChange = new UnityEvent<int>();
+    [SerializeField] UnityEvent onDeath = new UnityEvent();
+    [SerializeField] UnityEvent OnTakeDamage = new UnityEvent();
 
     #region parameters 
-
+    Rigidbody2D rb;
     public int maxhealth;
     int health;
     public int currenthealth
@@ -33,13 +34,17 @@ public class HealthSystem : MonoBehaviour
     #region methods
 
     //Recibe da�o y se le resta a la vida, vale para link y para los enemigos.
-    public void LoseHealth(int DamageTaken)
+    public void LoseHealth(int DamageTaken, Vector2 hitPoint)
     {
-        health -= DamageTaken;
+        Vector2 direction = ((Vector2)transform.position - hitPoint).normalized;
+        rb.velocity = direction * 5;
 
-        if (health <= 0)
+        OnTakeDamage?.Invoke();
+        currenthealth -= DamageTaken;
+
+        if (currenthealth <= 0)
         {
-            gameObject.SetActive(false);
+            onDeath?.Invoke();
         }
 
     }
@@ -47,29 +52,28 @@ public class HealthSystem : MonoBehaviour
     //Recupera 2 de vida equivalente a 1 coraz�n (espec�ficamente para link) cuando hay colisi�n con los corazones que dropean a veces los enemigos.
     public void Heal()
     {
-        health += 2;
+        currenthealth += 2;
 
-        if (health >= maxhealth) { health = maxhealth; }
+        if (currenthealth >= maxhealth) { currenthealth = maxhealth; }
     }
 
     //Aumenta la vida m�xima, es el item de la sala secreta que abres con la bomba. Se llama este m�todo si hay colisi�n entre el item y link.
     public void ContainerHeart()
     {
         maxhealth += 2;
-        health += 2;
+        currenthealth += 2;
     }
 
     #endregion
 
 
-    void Start()
+    private void OnEnable()
     {
-        health = maxhealth;
+        currenthealth = maxhealth;
     }
 
 
-    void Update()
-    {
-
+    private void Awake() {
+        rb = GetComponent<Rigidbody2D>();
     }
 }

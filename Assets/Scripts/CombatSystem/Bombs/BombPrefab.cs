@@ -42,12 +42,10 @@ public class BombPrefab : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.GetComponent<HealthSystem>() != null)
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.TryGetComponent(out HealthSystem healthSystem))
         {
-            HealthSystem healthSystem = collision.gameObject.GetComponent<HealthSystem>();
-            healthSystem.LoseHealth(damage);
+            healthSystem.LoseHealth(damage, transform.position);
         }
     }
 
