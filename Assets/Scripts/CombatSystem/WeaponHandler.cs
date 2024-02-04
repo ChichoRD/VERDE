@@ -32,9 +32,9 @@ public class WeaponHandler : MonoBehaviour
     {
         _myTransform = transform;
         
-        //BORRAR MAS ADELANTE
         weapons[0] = GetComponent<Sword>();
         weapons[1] = GetComponent<Bomb>();
         
+
     }
 }

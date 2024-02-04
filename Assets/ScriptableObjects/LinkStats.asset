@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 144e2d6ddec5f7f44a25aadb30eb280e, type: 3}
   m_Name: LinkStats
   m_EditorClassIdentifier: 
-  _hasSword: 0
+  _hasSword: 1
   _maxHealth: 3
   _currentHealth: 3
-  _bombCount: 0
+  _bombCount: 96
   _rupeeCount: 0
   _keyCount: 0
   OnHasSwordChange:
