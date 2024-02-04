@@ -10,13 +10,14 @@ public class HealthSystem : MonoBehaviour
 
     public int health; 
     public int maxhealth;
+    
 
-    //Cada 1 de vida es medio corazón, así que link tiene 6 de vida. Algunos enemigos tienen 1 o 2.
+    //Cada 1 de vida es medio corazï¿½n, asï¿½ que link tiene 6 de vida. Algunos enemigos tienen 1 o 2.
     #endregion
 
     #region methods
 
-    //Recibe daño y se le resta a la vida, vale para link y para los enemigos.
+    //Recibe daï¿½o y se le resta a la vida, vale para link y para los enemigos.
     public void LoseHealth(int DamageTaken)  
     {
         health -= DamageTaken;
@@ -28,7 +29,7 @@ public class HealthSystem : MonoBehaviour
 
     }
 
-    //Recupera 2 de vida equivalente a 1 corazón (específicamente para link) cuando hay colisión con los corazones que dropean a veces los enemigos.
+    //Recupera 2 de vida equivalente a 1 corazï¿½n (especï¿½ficamente para link) cuando hay colisiï¿½n con los corazones que dropean a veces los enemigos.
     public void Heal()  
     {
         health+=2; 
@@ -36,7 +37,7 @@ public class HealthSystem : MonoBehaviour
         if (health >= maxhealth ) { health = maxhealth; }
     }
 
-    //Aumenta la vida máxima, es el item de la sala secreta que abres con la bomba. Se llama este método si hay colisión entre el item y link.
+    //Aumenta la vida mï¿½xima, es el item de la sala secreta que abres con la bomba. Se llama este mï¿½todo si hay colisiï¿½n entre el item y link.
     public void ContainerHeart() 
     {
         maxhealth += 2;
