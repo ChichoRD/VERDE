@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class ShopEntrance : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class ShopEntrance : MonoBehaviour
 
     [SerializeField] private string targetScene = "Shop";
 
+    [SerializeField] UnityEvent onEnter;
+
     public void SetIsVisible(bool visible)  {
         isVisible = visible;
         transform.GetChild(0).gameObject.SetActive(visible);
@@ -19,6 +22,7 @@ public class ShopEntrance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.GetComponent<PlayerController>() && isVisible) {
+            onEnter?.Invoke();
             GameManager.Instance.shopInfo = shopInfo;
             SceneManager.LoadScene(targetScene);
         }

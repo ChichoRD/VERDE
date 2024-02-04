@@ -3103,7 +3103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.17265195
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -3111,7 +3111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.6550908
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -3342,6 +3342,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Overworld H0
+  onExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1529309662
 BoxCollider2D:
   m_ObjectHideFlags: 0
