@@ -50,6 +50,20 @@ public class ObserverUI : MonoBehaviour
         _linkStats.OnHasSwordChange.RemoveListener(OnHasSwordChanged);
     }
 
+    private void Start() {
+        _bombAmountText.text = $"x{_linkStats.bombCount}";
+        _keyAmountText.text = $"x{_linkStats.keyCount}";
+        _rupeeAmountText.text = $"x{_linkStats.rupeeCount}";
+        _sword.SetActive(_linkStats.hasSword);
+
+        for (int i = 0; i < _hearts.Length; i++)
+            _hearts[i].SetActive(i < _linkStats.currentHealth);
+
+        for (int i = 0; i < _heartContainers.Length; i++)
+            _heartContainers[i].SetActive(i < _linkStats.maxHealth);
+    }
+
+
     private void OnBombChanged(int arg0)
     {
         _bombAmountText.text = $"x{arg0}";

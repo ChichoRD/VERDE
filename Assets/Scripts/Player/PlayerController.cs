@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class PlayerController : MonoBehaviour
         lookDirection = Vector2.down;
     }
 
+    private void Start() {
+        if(GameManager.Instance.shopInfo != null && SceneManager.GetActiveScene().name == "Overworld H0") {
+            transform.position = GameManager.Instance.shopInfo.shopExit;
+        }
+    }
 
     public void ReadInput(Vector2 input) 
     {

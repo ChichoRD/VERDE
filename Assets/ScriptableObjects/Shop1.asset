@@ -15,3 +15,5 @@ MonoBehaviour:
   _hasPrices: 0
   _shopText: IT'S DANGEROUS TO GO ALONE! TAKE THIS.
   _shopObjects: []
+  _shopPrice: 
+  _shopExit: {x: -3.5, y: 2, z: 0}

@@ -16,4 +16,7 @@ public class ShopInfo : ScriptableObject
 
     [SerializeField] int[] _shopPrice;
     public int[] shopPrice { get { return _shopPrice; } }
+
+    [SerializeField] Vector3 _shopExit;
+    public Vector3 shopExit { get { return _shopExit; } }
 }
