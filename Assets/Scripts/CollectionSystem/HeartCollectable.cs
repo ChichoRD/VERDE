@@ -8,7 +8,9 @@ public class HeartCollectable : MonoBehaviour, ICollectable
 
     public void Collect(Collector collector)
     {
-        stats.currentHealth++;
+        if (stats.currentHealth < stats.maxHealth) {
+            stats.currentHealth++;          
+        }
         Destroy(gameObject);
     }
 }

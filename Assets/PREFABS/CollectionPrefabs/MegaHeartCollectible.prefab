@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 110626628604996180}
   - component: {fileID: 4682670031637099100}
-  - component: {fileID: 2255100783597153226}
+  - component: {fileID: 3747362691204283089}
   m_Layer: 0
-  m_Name: HeartCollectible
+  m_Name: MegaHeartCollectible
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.17
---- !u!114 &2255100783597153226
+--- !u!114 &3747362691204283089
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1225134737198363154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f13e6bc35e8ada40a49d4ec734efe0a, type: 3}
+  m_Script: {fileID: 11500000, guid: b412f53622873b04ca2412b433beee28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
@@ -155,7 +155,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 240810450, guid: 634fad1a57a61b44287b188d47af454e, type: 3}
+  m_Sprite: {fileID: -919785061, guid: 38afec58dc4c41b48b054e0d14ee910e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
