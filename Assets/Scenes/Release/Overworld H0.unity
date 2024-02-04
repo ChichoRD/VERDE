@@ -657,7 +657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a359f5778539a4a95092047a162f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 1147034355}
+  playerController: {fileID: 1138316685}
 --- !u!4 &573447153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 640759465308158334, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
@@ -918,7 +918,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 675978101453666864, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7415411860818986110, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1138316691}
   m_SourcePrefab: {fileID: 100100000, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
 --- !u!1001 &785221746
 PrefabInstance:
@@ -1075,10 +1078,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.48083243
+    x: 0
     y: 0
-    width: 0.42184326
-    height: 0.65628046
+    width: 0.9993921
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1578,15 +1581,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a04c8409a06d4e44acc843859a1dd75, type: 3}
---- !u!114 &1147034355 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5954328864408759598, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
+--- !u!1 &1138316680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7415411860818986110, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
   m_PrefabInstance: {fileID: 707994418}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+--- !u!114 &1138316685 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1263195861516082363, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
+  m_PrefabInstance: {fileID: 707994418}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138316680}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3bb8b81625a08d48924f39ab884e78c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1138316691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138316680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538fa1e1a823f0f42aa5b8f980d344f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1156360146 stripped
@@ -1764,13 +1784,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1333755830}
   - component: {fileID: 1333755831}
+  - component: {fileID: 1333755832}
   m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1333755830
 Transform:
   m_ObjectHideFlags: 0
@@ -1838,6 +1859,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1333755832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333755829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72be1dadfb356ed4b80533e006d3d22d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1380952822 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8241697438291732020, guid: 8a04c8409a06d4e44acc843859a1dd75, type: 3}
@@ -1919,7 +1952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.9993921
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
@@ -2656,6 +2689,126 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 279812909}
+    - target: {fileID: 818239091406782748, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 619830267}
+    - target: {fileID: 919317075884453220, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1414339334}
+    - target: {fileID: 1494088155195186002, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1628667203726532641, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.25
@@ -2664,6 +2817,46 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 11.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1768205056}
+    - target: {fileID: 1721778439422524514, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1753446753295455811, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.75
@@ -2671,6 +2864,46 @@ PrefabInstance:
     - target: {fileID: 1976780289448189704, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_Size.y
       value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1678175641}
+    - target: {fileID: 2033256690440085662, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2251259439945623370, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_Enabled
@@ -2683,6 +2916,46 @@ PrefabInstance:
     - target: {fileID: 2316415391229238550, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_Size.y
       value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1513499188}
+    - target: {fileID: 2524546527030062436, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2557308577455077926, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_Size.y
@@ -2709,12 +2982,92 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 573447153}
+    - target: {fileID: 3456356546789628236, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3528538420192222288, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1409962179}
+    - target: {fileID: 3569435378213863443, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3724212884923988832, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2760,9 +3113,129 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 11.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1799548006}
+    - target: {fileID: 6402918230220648215, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 377658131}
+    - target: {fileID: 6422911409062468355, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6682609434748726808, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 137150045}
+    - target: {fileID: 6931603484693164225, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6997471526241470157, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_Name
@@ -2824,6 +3297,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.75
       objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1333755832}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateMiniMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: MiniMapController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_IntArgument
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1322486041}
+    - target: {fileID: 8912196494691110442, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 9093292407850302257, guid: 6392c12e8bcfa644795d74ba206ff62e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 10.75
@@ -2881,6 +3394,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1473596517}
     m_Modifications:
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 324818825022824252, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1684435052410712511, guid: d685711ef6158144399d95ac416130f8, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -2961,9 +3498,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1893847692002891538, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2882365043216005028, guid: d685711ef6158144399d95ac416130f8, type: 3}
       propertyPath: m_Name
       value: Stats Rect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597871134032151841, guid: d685711ef6158144399d95ac416130f8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2974,11 +3559,11 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 937350798}
   - {fileID: 1419474863}
   - {fileID: 815523971}
   - {fileID: 4671836136637794114}
   - {fileID: 613235220}
-  - {fileID: 937350798}
   - {fileID: 707994418}
   - {fileID: 1572783022}
   - {fileID: 365392748}

@@ -19,8 +19,6 @@ public class PlayerController : MonoBehaviour
 
     public void ReadInput(Vector2 input) 
     {
-        
-        
 
             // Versi�n 1 con matem�ticas
             /**
@@ -74,6 +72,11 @@ public class PlayerController : MonoBehaviour
                rb.velocity = Vector2.zero;
             }
 
-        
+            if(rb.velocity != Vector2.zero) {
+               lookDirection = rb.velocity.normalized;
+            }
+
+            Debug.Log(lookDirection);
+
     }
 }
