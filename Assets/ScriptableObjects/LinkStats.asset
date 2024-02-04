@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LinkStats
   m_EditorClassIdentifier: 
   _currentHealth: 0
-  _bombCount: 5
+  _bombCount: 50
   _rupeeCount: 0
   _keyCount: 0
   OnHealthChange:

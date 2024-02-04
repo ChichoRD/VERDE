@@ -6,7 +6,10 @@ using UnityEngine.Events;
 
 public class BombPrefab : MonoBehaviour
 {
-    public Animator animator;
+    [SerializeField] GameObject explosionEffect1;
+    [SerializeField] GameObject explosionEffect2;
+
+    private BombAnimator bombAnimator;
     Transform _myTransform;
     [SerializeField]
     float explodeTime = 1f;
@@ -31,6 +34,8 @@ public class BombPrefab : MonoBehaviour
 
     Collider2D explosion;
 
+    public bool exploding = false; //SE USA EN EL ANIMATOR DE LA BOMBA
+
     public void BombFinish()
     {
         explosion.enabled = false;
@@ -50,24 +55,26 @@ public class BombPrefab : MonoBehaviour
     void Update()
     {
         //Esperar por 1 segundo segun el video
-        currentTime = currentTime + Time.deltaTime;
+        currentTime = currentTime + Time.deltaTime; //fase 0. Sin explotar
 
-        if (currentTime>linkStopTime && isStopped)
+        if (currentTime>linkStopTime && isStopped) //Devolver el input a Link
         {
             isStopped = false;
             enableInput.Invoke();
             PlayerAnimatorCall();
         }
 
-        if (currentTime > preparationTime)
+        if (currentTime > preparationTime) //fase 1. Explota
         {
             currentTime2 = currentTime2 + Time.deltaTime;
-            //Cambiar el sprite de la bomba en el animator
-            
+            exploding = true;
+            bombAnimator.CallBombAnimator(exploding);
             explosion.enabled = true;
 
+            explosionEffect1.SetActive(true);
+            explosionEffect2.SetActive(true);
             
-            if (currentTime2 > explodeTime) //DEBUG. SE NECESITA QUE EL EVENTO DE ANIMACION LLAME A BombFinish()
+            if (currentTime2 > explodeTime)  //fase 2. Se destruye
             {
                 BombFinish();
             }
@@ -80,6 +87,9 @@ public class BombPrefab : MonoBehaviour
         explosion = GetComponent<Collider2D>();
         explosion.enabled = false;
         _myTransform = transform;
+        bombAnimator = GetComponent<BombAnimator>();
+
+        
     }
 
     
