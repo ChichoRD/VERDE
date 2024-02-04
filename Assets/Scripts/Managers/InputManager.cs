@@ -6,6 +6,9 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
+    [SerializeField]
+    InputActionAsset playerActionMap;
+
     //[SerializeField] MovementController characaterController;
     PlayerInput playerInput;
 
@@ -54,5 +57,13 @@ public class InputManager : MonoBehaviour
                 playerInput.enabled = false;
                 break;
         }
+    }
+
+    void EnableInput(){
+        playerActionMap.Enable();
+    }
+
+    void Start(){
+        Invoke("EnableInput",0.1f);
     }
 }
