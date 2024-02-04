@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    
+
     public void ChangeStateOfGame(GameState state) {
         switch (state) {
             case GameState.Menu:

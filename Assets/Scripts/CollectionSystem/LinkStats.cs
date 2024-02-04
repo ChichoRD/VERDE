@@ -49,7 +49,7 @@ public class LinkStats : ScriptableObject
         }
     }
 
-    [SerializeField] int _rupeeCount;
+    [SerializeField] int _rupeeCount = 0;
     public int rupeeCount
     {
         get { return _rupeeCount; }
