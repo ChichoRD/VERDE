@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class RandomDrop : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] GameObject[] randomItems;
+    public void Drop()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(Random.Range(0,2) == 0)
+        {
+            GameObject randomItem = randomItems[Random.Range(0, randomItems.Length)];
+            Instantiate(randomItem, transform.position, Quaternion.identity);
+        }
     }
 }
