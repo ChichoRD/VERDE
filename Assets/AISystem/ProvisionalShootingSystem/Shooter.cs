@@ -14,8 +14,10 @@ public class Shooter : MonoBehaviour
 
     public void Shoot(Vector2 direction)
     {
-        print("Shooting");
+        Vector2 lookDirection = direction;
+        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
         GameObject bullet = Instantiate(_bulletPrefab, transform.position, Quaternion.identity);
+        bullet.transform.rotation = Quaternion.Euler(0, 0, angle - 90);
         bullet.GetComponent<Rigidbody2D>().velocity = direction * shootForce;
     }
 }

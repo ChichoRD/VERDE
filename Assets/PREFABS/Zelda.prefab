@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 4612197760059233399}
   - component: {fileID: 8589046448746449135}
   - component: {fileID: 866858574603231836}
+  - component: {fileID: 6647856992447728604}
   m_Layer: 6
   m_Name: Zelda
   m_TagString: Player
@@ -413,3 +414,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _linkStats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
   _healthSystem: {fileID: 9044915580227992809}
+--- !u!114 &6647856992447728604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415411860818986110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b842df035dcf8e479fe78989f5a1da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletPrefab: {fileID: 7980522700230071193, guid: f2cfdb1a02c8e6248823b1413cdbedee, type: 3}

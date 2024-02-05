@@ -10,12 +10,13 @@ public class Sword : MonoBehaviour, IWeapon
     private GameObject swordHitbox;
     private GameObject currentHitbox;
     private PlayerAnimatorController playerAnimatorController;
-    IWeapon attachedSwordBeam;
     [SerializeField] LinkStats linkStats;
+    Shooter attachedSwordBeam;
 
     void Start()
     {
         playerAnimatorController = GetComponent<PlayerAnimatorController>();
+        attachedSwordBeam = GetComponent<Shooter>();
     }
 
     public bool Use(Vector2 playerPosition, Vector2 playerDirection)
@@ -30,9 +31,9 @@ public class Sword : MonoBehaviour, IWeapon
             //Checkear si Link est� con la vida al completo. Si lo est�, disparar un prefab de proyectil
             //Checkear si Link est� con la vida al completo. Si lo est�, disparar un prefab de proyectil.
 
-            if(linkStats.currentHealth >= linkStats.maxHealth)
+            if(linkStats.currentHealth >= linkStats.maxHealth * 2)
             {
-                //attachedSwordBeam.Use(playerPosition, playerDirection);
+                attachedSwordBeam.Shoot(playerDirection);
             }
  
         }
