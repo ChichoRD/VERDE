@@ -69,7 +69,7 @@ public class HealthSystem : MonoBehaviour
 
     private void OnEnable()
     {
-        currenthealth = maxhealth;
+        currenthealth = maxhealth * 2;
     }
 
 

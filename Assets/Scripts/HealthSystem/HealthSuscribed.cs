@@ -15,7 +15,7 @@ public class HealthSu : MonoBehaviour
         _linkStats.currentHealth = newhealth ;
     }
 
-    void Start()
+    void Awake()
     {
         _healthSystem = GetComponent<HealthSystem>();
         _healthSystem.OnHealthChange.AddListener(HealthSuscribe);
