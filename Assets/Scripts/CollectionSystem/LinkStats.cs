@@ -14,7 +14,7 @@ public class LinkStats : ScriptableObject
         set
         {
             _currentHealth = value;
-            OnHealthChange.Invoke(_currentHealth);
+            OnHealthChange?.Invoke(_currentHealth);
         }
     }
 
@@ -25,7 +25,7 @@ public class LinkStats : ScriptableObject
         set
         {
             _bombCount = value;
-            OnBombChange.Invoke(_bombCount);
+            OnBombChange?.Invoke(_bombCount);
         }
     }
 
@@ -36,7 +36,7 @@ public class LinkStats : ScriptableObject
         set
         {
             _rupeeCount = value;
-            OnRupeeChange.Invoke(_rupeeCount);
+            OnRupeeChange?.Invoke(_rupeeCount);
         }
     }
 
@@ -47,7 +47,7 @@ public class LinkStats : ScriptableObject
         set
         {
             _keyCount = value;
-            OnKeyChange.Invoke(_keyCount);
+            OnKeyChange?.Invoke(_keyCount);
         }
     }
 
