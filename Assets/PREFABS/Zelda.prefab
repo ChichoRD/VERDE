@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 4612197760059233399}
   - component: {fileID: 8589046448746449135}
   - component: {fileID: 866858574603231836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Zelda
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 040342f0ec0809b47afaac003302824b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -136,10 +136,10 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 127
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -156,7 +156,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025, y: -0.35}
+  m_Offset: {x: 0.025, y: -0.4}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -167,7 +167,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.4}
+  m_Size: {x: 0.6, y: 0.3}
   m_EdgeRadius: 0
 --- !u!95 &571273623761384231
 Animator:
@@ -341,7 +341,7 @@ MonoBehaviour:
           m_StringArgument: GetDamage
           m_BoolArgument: 0
         m_CallState: 2
-  maxhealth: 6
+  maxhealth: 3
 --- !u!114 &4612197760059233399
 MonoBehaviour:
   m_ObjectHideFlags: 0
