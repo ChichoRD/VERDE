@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hasSword: 0
   _maxHealth: 3
-  _currentHealth: 3
+  _currentHealth: 6
   _bombCount: 0
   _rupeeCount: 0
   _keyCount: 0
