@@ -915,7 +915,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  maxhealth: 5
+  maxhealth: 2
 --- !u!95 &5754542262888487814
 Animator:
   serializedVersion: 5
