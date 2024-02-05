@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopInfo: {fileID: 0}
+  linkStats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
 --- !u!1 &4761108790887187386
 GameObject:
   m_ObjectHideFlags: 0

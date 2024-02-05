@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
 
     public ShopInfo shopInfo;
 
+    public LinkStats linkStats;
+
     private void Awake() {
         if (instance != null && instance != this) {
             Destroy(this.gameObject);

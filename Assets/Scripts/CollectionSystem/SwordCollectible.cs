@@ -22,4 +22,8 @@ public class SwordCollectible : MonoBehaviour, ICollectable
     {
         onDestroy?.Invoke();
     }
+
+    private void Start() {
+        if (GameManager.Instance.linkStats.hasSword) Destroy(this.gameObject);
+    }
 }
