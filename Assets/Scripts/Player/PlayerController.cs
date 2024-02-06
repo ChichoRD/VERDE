@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Start() {
-        if(GameManager.Instance.shopInfo != null && SceneManager.GetActiveScene().name == "Overworld H0") {
-            transform.position = GameManager.Instance.shopInfo.shopExit;
+        if(GameManager.Instance.shopExit != Vector3.zero && SceneManager.GetActiveScene().name == "Overworld") {
+            transform.position = GameManager.Instance.shopExit;
+            GameManager.Instance.shopExit = Vector3.zero;
         }
     }
 
