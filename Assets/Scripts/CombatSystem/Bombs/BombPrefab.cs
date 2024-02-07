@@ -9,6 +9,8 @@ public class BombPrefab : MonoBehaviour
     [SerializeField] GameObject explosionEffect1;
     [SerializeField] GameObject explosionEffect2;
 
+    [SerializeField] ShopEntrance shopEntrance;
+
     private BombAnimator bombAnimator;
     Transform _myTransform;
     [SerializeField]
@@ -38,6 +40,7 @@ public class BombPrefab : MonoBehaviour
 
     public void BombFinish()
     {
+        if (shopEntrance != null) shopEntrance.SetIsVisible(true);
         explosion.enabled = false;
         Destroy(gameObject);
     }
@@ -46,6 +49,10 @@ public class BombPrefab : MonoBehaviour
         if(other.TryGetComponent(out HealthSystem healthSystem))
         {
             healthSystem.LoseHealth(damage, transform.position);
+
+        }
+        if(other.TryGetComponent(out ShopEntrance se)) {
+            shopEntrance = se;
         }
     }
 

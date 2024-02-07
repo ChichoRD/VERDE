@@ -14,7 +14,7 @@ public class BombCollectable : MonoBehaviour, ICollectable
             stats.rupeeCount -= 20;
             stats.bombCount += bombAmount;
             GameManager.Instance.shopVisited[2] = true;
-            shopManager.DestroyObjects();
+            if(shopManager != null) shopManager.DestroyObjects();
             Destroy(gameObject);
         }
     }
