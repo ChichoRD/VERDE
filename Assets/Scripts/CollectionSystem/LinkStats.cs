@@ -18,6 +18,10 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    int _maxHealth;
+    public int maxHealth => _maxHealth;
+    
+
     int _bombCount;
     public int bombCount
     {
@@ -51,10 +55,22 @@ public class LinkStats : ScriptableObject
         }
     }
 
+    bool _hasSword = false;
+    public bool hasSword
+    {
+        get { return _hasSword; }
+        set
+        {
+            _hasSword = value;
+            OnTakeSword?.Invoke();
+        }
+    }
+
     public UnityEvent<int> OnHealthChange = new UnityEvent<int>();
     public UnityEvent<int> OnBombChange = new UnityEvent<int>();
     public UnityEvent<int> OnRupeeChange = new UnityEvent<int>();
     public UnityEvent<int> OnKeyChange = new UnityEvent<int>();
+    public UnityEvent OnTakeSword = new UnityEvent();
 
 
     public void Reset()
@@ -62,6 +78,8 @@ public class LinkStats : ScriptableObject
         bombCount = 0;
         rupeeCount = 0;
         keyCount = 0;
+        hasSword = false;
+        currentHealth = maxHealth;
     }
 }
 

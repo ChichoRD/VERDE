@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 140295264}
   - component: {fileID: 140295263}
   - component: {fileID: 140295262}
+  - component: {fileID: 140295272}
   m_Layer: 0
   m_Name: Zelda
   m_TagString: Untagged
@@ -188,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swordHitbox: {fileID: 4854415749051031855, guid: f6c957a136e7cb042b2c786d95e5a7ea, type: 3}
+  linkStats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
 --- !u!114 &140295265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,6 +403,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140295272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140295261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538fa1e1a823f0f42aa5b8f980d344f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &275350136
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +598,63 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+--- !u!1001 &977472650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 88101292323180111, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_Name
+      value: SwordCollectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.0765243
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.506088
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607228019201077253, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 90d0faaa47927164eab4b7135f3e0e58, type: 3}
 --- !u!1 &1619675145
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,3 +845,4 @@ SceneRoots:
   - {fileID: 1619675148}
   - {fileID: 1738824030}
   - {fileID: 140295271}
+  - {fileID: 977472650}

@@ -33,7 +33,6 @@ public class InputManager : MonoBehaviour
         {
             weaponHandler.BAction(playerController.lookDirection);
         }
-        
     }
 
     public void Movement(InputAction.CallbackContext context)
