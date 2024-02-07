@@ -299,6 +299,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3630658401253804179, guid: 6a1af2da50e96f648ad7588f4dfc0316, type: 3}
+      propertyPath: isVisible
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3630658401253804179, guid: 6a1af2da50e96f648ad7588f4dfc0316, type: 3}
       propertyPath: targetScene
       value: Shop2
       objectReference: {fileID: 0}
