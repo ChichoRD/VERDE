@@ -10,9 +10,12 @@ public class BombCollectable : MonoBehaviour, ICollectable
 
     public void Collect(Collector collector)
     {
-        stats.bombCount += bombAmount;
-        GameManager.Instance.shopVisited[2] = true;
-        shopManager.DestroyObjects();
-        Destroy(gameObject);
+        if (stats.rupeeCount >= 20) {
+            stats.rupeeCount -= 20;
+            stats.bombCount += bombAmount;
+            GameManager.Instance.shopVisited[2] = true;
+            shopManager.DestroyObjects();
+            Destroy(gameObject);
+        }
     }
 }
