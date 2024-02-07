@@ -83,7 +83,7 @@ public class LinkStats : ScriptableObject
     {
         hasSword = false;
         bombCount = 0;
-        rupeeCount = 20;
+        rupeeCount = 0;
         keyCount = 0;
         maxHealth = 3;
         currentHealth = 3;

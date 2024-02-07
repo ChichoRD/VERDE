@@ -27,7 +27,6 @@ public class ShopEntrance : MonoBehaviour
     }
 
     private void Start() {
-        if (GameManager.Instance.shopVisited[1]) isVisible = true;
         transform.GetChild(0).gameObject.SetActive(isVisible);
     }
 }
