@@ -10,6 +10,7 @@ public class RupeeCollectable : MonoBehaviour, ICollectable
     public void Collect(Collector collector)
     {
         stats.rupeeCount += rupeeAmount;
+        AudioManager.Instance.PlayOneShot("CogerRupias");
         Destroy(gameObject);
     }
 }

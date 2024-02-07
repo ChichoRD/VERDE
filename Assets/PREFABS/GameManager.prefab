@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a0b3f37579178b4bb4bd5a513c07b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopInfo: {fileID: 0}
+  shopExit: {x: 0, y: 0, z: 0}
+  shopVisited: 000000
   linkStats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
 --- !u!1 &4761108790887187386
 GameObject:
@@ -126,6 +127,84 @@ MonoBehaviour:
   sounds:
   - _name: Overworld
     clip: {fileID: 8300000, guid: 41fac749332e68743aa86d1d6254a96b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: stairs
+    clip: {fileID: 8300000, guid: b1d27695be3e67a4a9af77582b4a36e6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - _name: "Da\xF1o Jugador"
+    clip: {fileID: 8300000, guid: bfc63b492a2738d4d873e501c7c73ea1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: LanzarEspada
+    clip: {fileID: 8300000, guid: e3b30518e8749494e85fe462fe988a5d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: EspadaNormal
+    clip: {fileID: 8300000, guid: 930ef302a7e197044ab086fe210a3de2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: AtaqueEnemigo
+    clip: {fileID: 8300000, guid: bfc63b492a2738d4d873e501c7c73ea1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: ReflejarAtaqueConEscudo
+    clip: {fileID: 8300000, guid: b4d0bf9ce9e5a254886654d82f47f87e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: MenosRupias
+    clip: {fileID: 8300000, guid: fdd00d5b466082f4b8f3b7664c31bd8c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: Bombas
+    clip: {fileID: 8300000, guid: 3663fbc0ddb10524792252f8d3379666, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: AbrirPuertaCueva
+    clip: {fileID: 8300000, guid: b4b88f9a7df173d4fa90c584696461ae, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: ComprarItems
+    clip: {fileID: 8300000, guid: 890e932b57a34a54f9592a50e4eb153f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: CogerItems
+    clip: {fileID: 8300000, guid: 7b0354cf38e87774096813adcd178097, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: "CogerCoraz\xF3n"
+    clip: {fileID: 8300000, guid: d1440cacb80b2154a912083a4396a7ec, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - _name: CogerRupias
+    clip: {fileID: 8300000, guid: dad6b01603591254fb0f7dd3fffa4913, type: 3}
     volume: 1
     pitch: 1
     loop: 1

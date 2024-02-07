@@ -20,6 +20,7 @@ public class ShopEntrance : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.GetComponent<PlayerController>() && isVisible) {
+            AudioManager.Instance.PlayOneShot("stairs");
             GameManager.Instance.shopExit = transform.position + Vector3.down;
             onEnter?.Invoke();
             SceneManager.LoadScene(targetScene);

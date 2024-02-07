@@ -38,7 +38,6 @@ public class HealthSystem : MonoBehaviour
     {
         Vector2 direction = ((Vector2)transform.position - hitPoint).normalized;
         //rb.velocity = direction * 5;
-
         OnTakeDamage?.Invoke();
         currenthealth -= DamageTaken;
 

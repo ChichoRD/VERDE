@@ -23,6 +23,7 @@ public class Sword : MonoBehaviour, IWeapon
     {
         if(linkStats.hasSword)
         {
+            AudioManager.Instance.PlayOneShot("LanzarEspada");
             playerAnimatorController.onUsingItem(true, 0);
 
             currentHitbox =Instantiate(swordHitbox, playerPosition + playerDirection, Quaternion.identity);
