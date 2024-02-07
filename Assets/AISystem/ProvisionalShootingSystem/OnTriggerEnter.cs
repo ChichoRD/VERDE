@@ -15,6 +15,14 @@ public class OnTriggerEnter : MonoBehaviour
             onHit?.Invoke();
             if(other.TryGetComponent(out HealthSystem healthSystem))
             {
+                if (other.CompareTag("Player") == true)
+                {
+                    AudioManager.Instance.PlayOneShot("Daño a jugador");
+                }
+                else
+                {
+                    AudioManager.Instance.PlayOneShot("Daño Enemigo");
+                }
                 healthSystem.LoseHealth(damage, transform.position);
             }
         }

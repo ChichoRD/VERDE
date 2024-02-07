@@ -10,7 +10,10 @@ public class BombCollectable : MonoBehaviour, ICollectable
 
     public void Collect(Collector collector)
     {
+        AudioManager.Instance.PlayOneShot("CogerItems");
+        AudioManager.Instance.PlayOneShot("ComprarItems");
         stats.bombCount += bombAmount;
+        AudioManager.Instance.PlayOneShot("MenosRupias");
         GameManager.Instance.shopVisited[2] = true;
         shopManager.DestroyObjects();
         Destroy(gameObject);
