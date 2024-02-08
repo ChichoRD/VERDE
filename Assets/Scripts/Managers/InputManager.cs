@@ -15,9 +15,28 @@ public class InputManager : MonoBehaviour
     [SerializeField] PlayerController playerController;
     WeaponHandler weaponHandler;
 
-    private void Awake() {
+    [SerializeField]
+    private InputActionReference _movementActionReference;
+
+    private void Awake()
+    {
         playerInput = GetComponent<PlayerInput>();
         weaponHandler = playerController.GetComponent<WeaponHandler>();
+    }
+
+    private void OnEnable()
+    {
+        _movementActionReference.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        _movementActionReference.action.Disable();
+    }
+
+    private void FixedUpdate()
+    {
+        playerController.ReadInput(_movementActionReference.action.ReadValue<Vector2>());
     }
 
     public void ActionA(InputAction.CallbackContext context)
@@ -25,9 +44,7 @@ public class InputManager : MonoBehaviour
         if (context.performed)
         {
             weaponHandler.AAction(playerController.lookDirection);
-        }
-        
-        
+        }  
     }
 
     public void ActionB(InputAction.CallbackContext context)
@@ -36,11 +53,6 @@ public class InputManager : MonoBehaviour
         {
             weaponHandler.BAction(playerController.lookDirection);
         }
-    }
-
-    public void Movement(InputAction.CallbackContext context)
-    {
-        playerController.ReadInput(context.ReadValue<Vector2>());
     }
 
     void OnStateChange(GameState state)

@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81144fdecbd31ec47852ee923465f4ae, type: 3}
-  m_Name: Initial Shop Event
+  m_Script: {fileID: 11500000, guid: d58cc2eb232f41949b0b20de5480e7a8, type: 3}
+  m_Name: Shop Index Fact
   m_EditorClassIdentifier: 
-  _dialogueRuleObjects:
-  - {fileID: 11400000, guid: 79cfd467e2872954887c9dd63d0154d4, type: 2}
+  _observableFact:
+    _value: 0
