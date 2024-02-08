@@ -4,19 +4,9 @@ using UnityEngine;
 
 public class MiniMapController : MonoBehaviour
 {
-    public Transform mainCam;
-    Transform square;
-    // Start is called before the first frame update
-    void Start()
-    {
-        square = transform;
-        square.position = mainCam.position;
-    }
-
     // Update is called once per frame
-    public void UpdateMiniMap()
+    public void UpdateMiniMap(Transform targetTransform)
     {
-        square.SetParent(mainCam);
-        square.position = Vector3.zero;
+        transform.position = targetTransform.position;
     }
 }
