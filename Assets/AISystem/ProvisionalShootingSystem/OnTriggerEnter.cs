@@ -25,6 +25,13 @@ public class OnTriggerEnter : MonoBehaviour
                 }
                 healthSystem.LoseHealth(damage, transform.position);
             }
+            Destroy(this);
+        }
+
+        if(other.name == "Screen Barriers") //he hecho stringtyping asiesasies
+        {
+            onHit?.Invoke();
+            Destroy(this);
         }
     }
 }
