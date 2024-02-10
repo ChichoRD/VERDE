@@ -85,6 +85,8 @@ public class LinkStats : ScriptableObject
         bombCount = 0;
         rupeeCount = 0;
         keyCount = 0;
+        maxHealth = 3;
+        currentHealth = 3;
     }
 }
 

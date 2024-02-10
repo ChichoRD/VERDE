@@ -9,7 +9,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed = 10f;
     public Vector2 lookDirection;
+    [SerializeField] private InputManager _playerInput;
 
+    private float timer = 0;
+    [SerializeField] private float knockbackTime = 0.5f;
+    [SerializeField] private float knockbackSpeed = 1f;
 
     private void OnEnable()
     {
@@ -18,37 +22,36 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Start() {
-        if(GameManager.Instance.shopInfo != null && SceneManager.GetActiveScene().name == "Overworld H0") {
-            transform.position = GameManager.Instance.shopInfo.shopExit;
+        if(GameManager.Instance.shopExit != Vector3.zero && SceneManager.GetActiveScene().name == "Overworld") {
+            transform.position = GameManager.Instance.shopExit;
+            GameManager.Instance.shopExit = Vector3.zero;
         }
     }
 
     public void ReadInput(Vector2 input) 
     {
+        rb.velocity = input * moveSpeed;
 
-        if(rb != null) {
+        if (input != Vector2.zero)
+            lookDirection = input;
+    }
 
-            if (rb.velocity.x != 0 && input.y != 0) {
-                rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
-            } else if (rb.velocity.y != 0 && input.x != 0) {
-                rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
-            } else if (input.x != 0) {
-                rb.velocity = new Vector2(input.x > 0 ? 1 : -1, 0) * moveSpeed;
-            } else if (input.y != 0) {
-                rb.velocity = new Vector2(0, input.y > 0 ? 1 : -1) * moveSpeed;
-            } else {
-                rb.velocity = Vector2.zero;
+    public void KnockBack()
+    {
+        _playerInput.enabled = false;
+        rb.velocity = lookDirection * knockbackSpeed;
+    }
+
+    private void Update()
+    {
+        if (_playerInput.enabled==false) 
+        { 
+            timer = timer + Time.deltaTime;
+            if (timer > knockbackTime)
+            {
+                timer = 0f; //reicincio del contador
+                _playerInput.enabled = true;
             }
-
-            if (rb.velocity != Vector2.zero) {
-                lookDirection = rb.velocity.normalized;
-            }
-
-            Debug.Log(lookDirection);
-
         }
-
-            
-
     }
 }

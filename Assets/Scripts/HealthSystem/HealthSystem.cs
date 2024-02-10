@@ -37,8 +37,7 @@ public class HealthSystem : MonoBehaviour
     public void LoseHealth(int DamageTaken, Vector2 hitPoint)
     {
         Vector2 direction = ((Vector2)transform.position - hitPoint).normalized;
-        rb.velocity = direction * 5;
-
+        //rb.velocity = direction * 5;
         OnTakeDamage?.Invoke();
         currenthealth -= DamageTaken;
 
@@ -69,7 +68,7 @@ public class HealthSystem : MonoBehaviour
 
     private void OnEnable()
     {
-        currenthealth = maxhealth;
+        currenthealth = maxhealth * 2;
     }
 
 

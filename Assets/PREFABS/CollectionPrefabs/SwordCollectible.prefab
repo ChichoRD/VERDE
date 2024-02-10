@@ -129,6 +129,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   linkStats: {fileID: 11400000, guid: da5246be8ef257548ba4a01887f2ff54, type: 2}
+  shopManager: {fileID: 0}
 --- !u!61 &6575843504758133013
 BoxCollider2D:
   m_ObjectHideFlags: 0

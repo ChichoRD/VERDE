@@ -19,7 +19,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get { return instance; } }
     UnityEvent<GameState> onGameStateChanged = new UnityEvent<GameState>();
 
-    public ShopInfo shopInfo;
+    public Vector3 shopExit;
+
+    public bool[] shopVisited = new bool[3];
 
     public LinkStats linkStats;
 
@@ -30,7 +32,10 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             transform.GetChild(0).gameObject.SetActive(true);
+            linkStats.Reset();
         }
+
+        
     }
 
     
