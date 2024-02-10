@@ -6,7 +6,7 @@ public class FollowTarget : MonoBehaviour, IBehaviour
 {
     TargetHandler targetHandler;
     MovementController movementController;
-    int multiplier = 1;
+    [SerializeField] int multiplier = 1;
 
     private void Awake()
     { 
@@ -17,7 +17,7 @@ public class FollowTarget : MonoBehaviour, IBehaviour
     public void ExecuteBehaviour() => movementController.MoveTowards(targetHandler.target.position, multiplier);
 
     private void OnValidate() {
-        if(multiplier > 1)
+        if(multiplier >= 0)
             gameObject.name = $"Follow Target x{multiplier}";
         else
             gameObject.name = $"Move Away x{multiplier}";
