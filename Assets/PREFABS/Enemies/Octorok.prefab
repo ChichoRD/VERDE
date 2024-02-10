@@ -885,6 +885,12 @@ MonoBehaviour:
   OnHealthChange:
     m_PersistentCalls:
       m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
   maxhealth: 2
 --- !u!95 &5754542262888487814
 Animator:
@@ -980,6 +986,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6445313235542090673
 GameObject:
   m_ObjectHideFlags: 0

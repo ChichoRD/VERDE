@@ -14,7 +14,6 @@ public class Shooter : MonoBehaviour
 
     public void Shoot(Vector2 direction)
     {
-        print("Shooting");
         GameObject bullet = Instantiate(_bulletPrefab, transform.position, Quaternion.identity);
         bullet.GetComponent<Rigidbody2D>().velocity = direction * shootForce;
     }
