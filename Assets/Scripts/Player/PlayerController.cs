@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     public void KnockBack()
     {
         _playerInput.enabled = false;
-        rb.velocity = -lookDirection * knockbackSpeed;
+        rb.velocity = lookDirection * knockbackSpeed;
     }
 
     private void Update()
