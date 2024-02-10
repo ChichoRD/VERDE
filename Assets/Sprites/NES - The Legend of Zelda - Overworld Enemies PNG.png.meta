@@ -202,7 +202,7 @@ TextureImporter:
         width: 10
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,6 +210,3387 @@ TextureImporter:
       bones: []
       spriteID: 61d39f5a946ba974eb76879ded841180
       internalID: 1240654607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21c2669694db342a13e550f53336e9
+      internalID: 1847489805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 193
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1243fa15925d6548bb9050e547fa96f
+      internalID: 1271477879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 193
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d7fe1ea2061a4bbdc4d71c6d3c205
+      internalID: 800889802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 193
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a64f66242e0c4541a80e04b34276f83
+      internalID: 1567177528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 193
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220556d4e521b484e95dc7875e9275aa
+      internalID: 957044839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 193
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77a8395d3d0c554fb9721b20a33a525
+      internalID: 1910190188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0134d90a8e90a2348a7c643791b7db3d
+      internalID: 889085865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 193
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4c96827bfcf3c4c8c279ac56a9b666
+      internalID: 1903710248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc38f5b8f8b34a64293c60088ea6856f
+      internalID: 900669705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 193
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03647120bf9695b46a5fdb445de72ef1
+      internalID: 1694470720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261d9a53a5199e440aca4b07d99364da
+      internalID: 314871325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a11c2a6094f574e94ecfbbf2d4cbb9
+      internalID: -1611242948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 193
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613c545938861744bb9dd582390b058d
+      internalID: -1947262647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 193
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265785fa1a86d924abe290d6d6e13436
+      internalID: 629864588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 193
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773b520113220649861cbdbc5e4fcfa
+      internalID: 1381698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_20
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 193
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c561bf9a8b0c09c4db780658cc3a9bf2
+      internalID: 215558441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69efadfb6b49844a98d42e001f66b0a
+      internalID: -1687761510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_22
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 193
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b5c212f6c5cb44ab284e948da72f4e
+      internalID: -840363105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 193
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4667cbbbc7d6458b406e211e5c2d8
+      internalID: 1747240177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 193
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41140582ccb928c419053321ff342987
+      internalID: 1401403418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec55bac505b8584098fb63c432923ee
+      internalID: -484399779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 174
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80a45197d09f674b99ddaa986e7f176
+      internalID: -875225556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_27
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c63fd58c40f954ca8a16c795d6c1a0
+      internalID: 1934892564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 174
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a6ba4e1dc7e94db92db6d2913ce82
+      internalID: -863627217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_29
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 174
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cddbb841ed26549af4b80285f5de00
+      internalID: 161655671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 180
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b2947e5bf27414e8a526ada97231b1
+      internalID: 1651280987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d8c056f071ec244a38c2483cab152e
+      internalID: -787960737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e130bc2b3d371d545acc3d45984722df
+      internalID: 1252341869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108129201b8da6a46a89102bc76223e9
+      internalID: 134977502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87ed9e46c6a5cd408941e2b5442c67e
+      internalID: -1452380511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_35
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aca28cac1a7f20428f4e11e715c2921
+      internalID: -1869749195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_36
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f4acdfeec175e4295eb79267da7993
+      internalID: 305770595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c574d03ab29853e4da2a718c9fe61fbd
+      internalID: 1878448775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 175
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f7c51bc060e914495b868108c3af53
+      internalID: 511703055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 175
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf3840be5ce5a44813f1fdb8470baa
+      internalID: -2117148769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6bfad797bd2d641b30589a88d0a5e6
+      internalID: -404452370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 159
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5258d27c0afc98418f5d69c91e26120
+      internalID: -537584258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6440ab71d7910f4896bb275db75dd65
+      internalID: 453770775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 157
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62b2ea97372ff149ad6a95c993a8272
+      internalID: 578483255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346046f7dcaacc44eba797de6fdfa529
+      internalID: -1380533734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 157
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8cbaf3ba720054d941c43722d72a55
+      internalID: 2144772863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_46
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1533a7a8264ed8b4fb82d776ba153aae
+      internalID: -914365705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 157
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda5df4f4454894fabf8556af84796e
+      internalID: -672242504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa8f1c3d332af34ca7b5806944af04d
+      internalID: 475159560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda355538add4e4aa61d91b35a388f3
+      internalID: -1034479246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_50
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9423738ae544354cbcf7c3effe0dbbb
+      internalID: 379456235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d0023d613317d48af0b4895aeff163
+      internalID: 1141294501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_52
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571b6b5c10f6f2349b5f81849b7219a9
+      internalID: 765633356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d977d89e7189e4db845efaa037af6c
+      internalID: 1666874073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30276a1a47258044088018f46da0a06b
+      internalID: 782667805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0060b850cc043d64da59b38ee00bb4d6
+      internalID: -785612621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 145
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c42f0b188d1a44a985292a48e86af
+      internalID: -1831583462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f6721cd99f4d4182385c36866116e
+      internalID: 1091171609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8408f410a5b3f494092714ffd479d223
+      internalID: 1792675935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_59
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 145
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411e8b1064237594d8fd177c5fe48c42
+      internalID: 947473054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_60
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45386de041364044890a139e21effb85
+      internalID: -2022070534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 145
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de5e7ecbc1843b49835cc7796296228
+      internalID: 2132596598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_62
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990facfa27619764bb09a827cc613239
+      internalID: 1116196604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_63
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f93ac9cdf61285459ec92015bc34b3e
+      internalID: -643342886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_64
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9def6639e1dc4d89236f1a120bdaa
+      internalID: -1473304315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_65
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 145
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d8eca9cab672742921b46c0870c406
+      internalID: 1120905950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb130cb9a6a039469048f470c084c72
+      internalID: -1323285505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_67
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 145
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2427eda2d141f4392e458709d35be2
+      internalID: 528231680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 145
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d0ba1e2d206714a8d7c3681400d34b
+      internalID: 1024448019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_69
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 145
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d8079c8176db4c8f4e27a51e9e2cf
+      internalID: -1567830473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_70
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6cd5ed88d6d9c46a9969355d9cef00
+      internalID: -1349851708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_71
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 127
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923fdde7c8337a945b6121fa4bb1d294
+      internalID: -1955294972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 126
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0507ab284142fa346ae0846649e63728
+      internalID: -897340162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_73
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115d95b673b81b049b125ee7955ccb19
+      internalID: 998863302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_74
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deff6a561c9faec4994607c99c0af778
+      internalID: -700658380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_75
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 126
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8427f14fce191d42902cf6db9abee57
+      internalID: -430810067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_76
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 126
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5777debc5ed9044b842c30520f56647
+      internalID: 684494845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_77
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 127
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1707c86db4033e44d8180dcd6b29f847
+      internalID: -991315743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_78
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 126
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26186867968abd84cb154c382b51d263
+      internalID: 498262013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_79
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a818f5b754a61d4880775d7e9efc236
+      internalID: 357360275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_80
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 126
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984caadc84c662a408b7fca64591cd6c
+      internalID: 459063953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 126
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676c9fcb5610b7b489e7a964bce27d5f
+      internalID: 482892112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_82
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 126
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8fdf81038c95a44aa212e7022c29d6
+      internalID: -435105790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_83
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dce1aff018098641bfc6c0f093ee1b6
+      internalID: 273632978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_84
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e1ebaf9ace5e47a0567010218f386
+      internalID: 419928899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_85
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 109
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058d10f8a5923ed4994a932caed3a8b8
+      internalID: 784592373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_86
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 109
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4cadfbe55c0344d970af08f1543b63
+      internalID: 191569474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_87
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973cfe2bf31a6dd4fb12e174a3baac60
+      internalID: -1742870989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_88
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 109
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009c527eb93872046a5d67ac264bfadf
+      internalID: -1865222841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_89
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 109
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fc264f6bc097340a5d85cfd9998240
+      internalID: 1109053838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_90
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 110
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cf66c7e2c5b2143841222d19013168
+      internalID: -50793023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_91
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 109
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaf4b0669671dc41a7c6c59646e147c
+      internalID: 1462738638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_92
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c02fd8be26eba40b66132d954f49e8
+      internalID: 31413562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d907327a6126e478028e50b6004c71
+      internalID: 413431946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_94
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a21ad303129e3428a92249668a5ad1
+      internalID: -790886423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_95
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 114
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdc55109b88f7e4fa85f458fede1624
+      internalID: -610083845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2b28ac487c11940b207ad725bff9d3
+      internalID: 2088108737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_97
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e749f465a7c7d428ac9ca0434d9118
+      internalID: 270174245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_98
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45933a42cdc39484db5592808d06ae75
+      internalID: 257079833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_99
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b0a4d1d3c9c0b4fb7d51777f2d2ba2
+      internalID: -1226420428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_100
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 114
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c58cabcc32681943b4993c7ec934fe8
+      internalID: -1092162202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_101
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9fc956fa67b544885ddba5f44d0363
+      internalID: -1305719818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_102
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2efbb4ebca6bf348b116ad2b65b7534
+      internalID: -392077572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_103
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ebeb52b66241d41bbeb04fe044ce80
+      internalID: -956392927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_104
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99afb245a2deed849b4f8af1774fd0fa
+      internalID: 1765375141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_105
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2580a1735634abf4f9253f7724e551f6
+      internalID: 860506414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_106
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 92
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d67215c257af749a004854c328be4a
+      internalID: -2071319296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 95
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbb16de26481ec42acec0b217fa677b
+      internalID: -547823049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 95
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae4424f72ff1284caba2318b7634d8a
+      internalID: -1610500287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_109
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 95
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed6052b4060ce44acc3d69c8d97238
+      internalID: -1724357077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_110
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a938d4aa77951448a21526500ae53c
+      internalID: 496419843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_111
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5198d0790d4ad5c43a40d97ecaf2cff6
+      internalID: -1851366342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_112
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e21fa469c68604c87b10131bcd70f5
+      internalID: 932614642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_113
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f7b55e5852c604eac755e93e041e1b
+      internalID: -1387993843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_114
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 95
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828b071c92cf6f643a44d88a2f1ec74d
+      internalID: 476453060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_115
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 79
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9b5bfd0a8a87144a4ba850465c4187
+      internalID: -611664164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_116
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 79
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c36fb81ad7f4e45a50831d11893a08
+      internalID: 1565533487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_117
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 79
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e6cbc0275aa9b46999898e26b0a8c1
+      internalID: -324495926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_118
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 79
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcef9c0b6e02e545bf9e90184b16995
+      internalID: -78612938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2771270fa104e489845338cbb760e9
+      internalID: -967877547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_120
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06b1060d86a4bb4da401009ec49e139
+      internalID: 292037867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56466ef12f1289f4a919d3386e267764
+      internalID: -1915436241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_122
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 63
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7ab6560cb4a34ab0d6e7e1af08f76
+      internalID: -1372899521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_123
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523e8806825e51c46ad16563ff3c803a
+      internalID: 479634696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_124
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 63
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132cd4cbe940cc44792fcb94b716ab0a
+      internalID: -179315285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_125
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f5653114464ea479e336c0b5a44052
+      internalID: 609558966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_126
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5794eed13c19d4f9a8ca55300124a9
+      internalID: 2135185944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_127
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5b3831070730043835ef0db34d6245
+      internalID: -1572159630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_128
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576b74c65f96d4848a593552134e6dfa
+      internalID: -763109795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_129
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 63
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079151c477c26cb48ac69e2ab22ed7b4
+      internalID: 473435964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_130
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 63
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7beb1ce9e35e4745bb3d45497901fce
+      internalID: 540767298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_131
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 63
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d11f2cb9c4c19649849e5b9deeeecfc
+      internalID: 1507731260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_132
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 62
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd80770c22b48542a651b17ec29e604
+      internalID: 148382688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 63
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e4e2bf28a251c42954e01b919b470e
+      internalID: 1861035421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_134
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7349e83263dc54692d3700b45885e3
+      internalID: 1601913362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_135
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d4a1eb41f17f48b6215364696e402
+      internalID: -851166651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_136
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f500704dcd9f0e4d816a04b3a0445f8
+      internalID: -572422238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_137
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb6190edd19cbd4dabfa0effd22a86b
+      internalID: 1931759674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_138
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 51
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e275c39d02b9b34996eee1d2c7bffcb
+      internalID: 848166073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b9b57c79bc9848b4323e389869aff
+      internalID: -203965089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_140
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c976d0fb1b3714ab5c4f6796dbfafd
+      internalID: 598403047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 51
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb4a5566b0194947ab200e92d0f30b3
+      internalID: -465023306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_142
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 51
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda43a6cf93006847b7e978cf638e297
+      internalID: -2093574961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33fd53496cb2af488ae8bd6081c2e7a
+      internalID: -1292225762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_144
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a89eabba51d34794f4d2b843f644e
+      internalID: 861038303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_145
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f6c2b92e5310a4f9fa6a4da4687abf
+      internalID: 562953163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_146
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 41
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73a96cc25f3ad246ba8913d1c95050b
+      internalID: 1843393323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_147
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c836a44ca52dd2448f0bafe5e79502f
+      internalID: 1504410435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_148
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517486a0b6f81da41bc702536cdfad7b
+      internalID: 233856609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_149
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee05c04e7d0c07c4080683bd2229d49f
+      internalID: 1078683595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_150
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e006184654851e4bb023d926dd6dd12
+      internalID: -141673265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_151
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 41
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc92cac48819f4e4bbef8d941da5ffbf
+      internalID: 976533109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_152
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8394eba973bbf714a847005f35bd6fb7
+      internalID: -81197370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_153
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 41
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5f340af7fd7fd43962b8f806f181f8
+      internalID: 923603787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_154
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e5b987ae0908348961843c664b999d
+      internalID: -287872808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_155
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 41
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0632309d048eb2c44bb96f40ff017d4c
+      internalID: -848725637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_156
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 41
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae8c7e6ab4027846a27f1981abec506
+      internalID: 1491183904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_157
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca3b4b6c96085640b51a4e3f7a5d3f6
+      internalID: -2067451929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_158
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdf28046459cae4f9ae44b78c3923d7
+      internalID: -1421673778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 224
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e900b830b0bc5a45b8f3cd2a19d8928
+      internalID: -1746785378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_160
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 20
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6026510b3d9b8f74da8c89d0a5699df3
+      internalID: -408811618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 20
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da296d39193bcd145bc4699cd3ec294f
+      internalID: -965324716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_162
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 20
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650a351b2126b3645afa7e9ac105406f
+      internalID: 1273675449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_163
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e468253a79fed5b4e9993f0ef50db4ca
+      internalID: -858598776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_164
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf431aed582b14ca39912a9a23aac8
+      internalID: 1077068325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - The Legend of Zelda - Overworld Enemies PNG_165
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da3dd09d4155342a29c52b0f5fecf4
+      internalID: 1758276275
       vertices: []
       indices: 
       edges: []
@@ -227,9 +3608,170 @@ TextureImporter:
     nameFileIdTable:
       NES - The Legend of Zelda - Overworld Enemies PNG_0: -641150953
       NES - The Legend of Zelda - Overworld Enemies PNG_1: 1404503977
+      NES - The Legend of Zelda - Overworld Enemies PNG_10: 1910190188
+      NES - The Legend of Zelda - Overworld Enemies PNG_100: -1092162202
+      NES - The Legend of Zelda - Overworld Enemies PNG_101: -1305719818
+      NES - The Legend of Zelda - Overworld Enemies PNG_102: -392077572
+      NES - The Legend of Zelda - Overworld Enemies PNG_103: -956392927
+      NES - The Legend of Zelda - Overworld Enemies PNG_104: 1765375141
+      NES - The Legend of Zelda - Overworld Enemies PNG_105: 860506414
+      NES - The Legend of Zelda - Overworld Enemies PNG_106: -2071319296
+      NES - The Legend of Zelda - Overworld Enemies PNG_107: -547823049
+      NES - The Legend of Zelda - Overworld Enemies PNG_108: -1610500287
+      NES - The Legend of Zelda - Overworld Enemies PNG_109: -1724357077
+      NES - The Legend of Zelda - Overworld Enemies PNG_11: 889085865
+      NES - The Legend of Zelda - Overworld Enemies PNG_110: 496419843
+      NES - The Legend of Zelda - Overworld Enemies PNG_111: -1851366342
+      NES - The Legend of Zelda - Overworld Enemies PNG_112: 932614642
+      NES - The Legend of Zelda - Overworld Enemies PNG_113: -1387993843
+      NES - The Legend of Zelda - Overworld Enemies PNG_114: 476453060
+      NES - The Legend of Zelda - Overworld Enemies PNG_115: -611664164
+      NES - The Legend of Zelda - Overworld Enemies PNG_116: 1565533487
+      NES - The Legend of Zelda - Overworld Enemies PNG_117: -324495926
+      NES - The Legend of Zelda - Overworld Enemies PNG_118: -78612938
+      NES - The Legend of Zelda - Overworld Enemies PNG_119: -967877547
+      NES - The Legend of Zelda - Overworld Enemies PNG_12: 1903710248
+      NES - The Legend of Zelda - Overworld Enemies PNG_120: 292037867
+      NES - The Legend of Zelda - Overworld Enemies PNG_121: -1915436241
+      NES - The Legend of Zelda - Overworld Enemies PNG_122: -1372899521
+      NES - The Legend of Zelda - Overworld Enemies PNG_123: 479634696
+      NES - The Legend of Zelda - Overworld Enemies PNG_124: -179315285
+      NES - The Legend of Zelda - Overworld Enemies PNG_125: 609558966
+      NES - The Legend of Zelda - Overworld Enemies PNG_126: 2135185944
+      NES - The Legend of Zelda - Overworld Enemies PNG_127: -1572159630
+      NES - The Legend of Zelda - Overworld Enemies PNG_128: -763109795
+      NES - The Legend of Zelda - Overworld Enemies PNG_129: 473435964
+      NES - The Legend of Zelda - Overworld Enemies PNG_13: 900669705
+      NES - The Legend of Zelda - Overworld Enemies PNG_130: 540767298
+      NES - The Legend of Zelda - Overworld Enemies PNG_131: 1507731260
+      NES - The Legend of Zelda - Overworld Enemies PNG_132: 148382688
+      NES - The Legend of Zelda - Overworld Enemies PNG_133: 1861035421
+      NES - The Legend of Zelda - Overworld Enemies PNG_134: 1601913362
+      NES - The Legend of Zelda - Overworld Enemies PNG_135: -851166651
+      NES - The Legend of Zelda - Overworld Enemies PNG_136: -572422238
+      NES - The Legend of Zelda - Overworld Enemies PNG_137: 1931759674
+      NES - The Legend of Zelda - Overworld Enemies PNG_138: 848166073
+      NES - The Legend of Zelda - Overworld Enemies PNG_139: -203965089
+      NES - The Legend of Zelda - Overworld Enemies PNG_14: 1694470720
+      NES - The Legend of Zelda - Overworld Enemies PNG_140: 598403047
+      NES - The Legend of Zelda - Overworld Enemies PNG_141: -465023306
+      NES - The Legend of Zelda - Overworld Enemies PNG_142: -2093574961
+      NES - The Legend of Zelda - Overworld Enemies PNG_143: -1292225762
+      NES - The Legend of Zelda - Overworld Enemies PNG_144: 861038303
+      NES - The Legend of Zelda - Overworld Enemies PNG_145: 562953163
+      NES - The Legend of Zelda - Overworld Enemies PNG_146: 1843393323
+      NES - The Legend of Zelda - Overworld Enemies PNG_147: 1504410435
+      NES - The Legend of Zelda - Overworld Enemies PNG_148: 233856609
+      NES - The Legend of Zelda - Overworld Enemies PNG_149: 1078683595
+      NES - The Legend of Zelda - Overworld Enemies PNG_15: 314871325
+      NES - The Legend of Zelda - Overworld Enemies PNG_150: -141673265
+      NES - The Legend of Zelda - Overworld Enemies PNG_151: 976533109
+      NES - The Legend of Zelda - Overworld Enemies PNG_152: -81197370
+      NES - The Legend of Zelda - Overworld Enemies PNG_153: 923603787
+      NES - The Legend of Zelda - Overworld Enemies PNG_154: -287872808
+      NES - The Legend of Zelda - Overworld Enemies PNG_155: -848725637
+      NES - The Legend of Zelda - Overworld Enemies PNG_156: 1491183904
+      NES - The Legend of Zelda - Overworld Enemies PNG_157: -2067451929
+      NES - The Legend of Zelda - Overworld Enemies PNG_158: -1421673778
+      NES - The Legend of Zelda - Overworld Enemies PNG_159: -1746785378
+      NES - The Legend of Zelda - Overworld Enemies PNG_16: -1611242948
+      NES - The Legend of Zelda - Overworld Enemies PNG_160: -408811618
+      NES - The Legend of Zelda - Overworld Enemies PNG_161: -965324716
+      NES - The Legend of Zelda - Overworld Enemies PNG_162: 1273675449
+      NES - The Legend of Zelda - Overworld Enemies PNG_163: -858598776
+      NES - The Legend of Zelda - Overworld Enemies PNG_164: 1077068325
+      NES - The Legend of Zelda - Overworld Enemies PNG_165: 1758276275
+      NES - The Legend of Zelda - Overworld Enemies PNG_17: -1947262647
+      NES - The Legend of Zelda - Overworld Enemies PNG_18: 629864588
+      NES - The Legend of Zelda - Overworld Enemies PNG_19: 1381698
       NES - The Legend of Zelda - Overworld Enemies PNG_2: 320913392
+      NES - The Legend of Zelda - Overworld Enemies PNG_20: 215558441
+      NES - The Legend of Zelda - Overworld Enemies PNG_21: -1687761510
+      NES - The Legend of Zelda - Overworld Enemies PNG_22: -840363105
+      NES - The Legend of Zelda - Overworld Enemies PNG_23: 1747240177
+      NES - The Legend of Zelda - Overworld Enemies PNG_24: 1401403418
+      NES - The Legend of Zelda - Overworld Enemies PNG_25: -484399779
+      NES - The Legend of Zelda - Overworld Enemies PNG_26: -875225556
+      NES - The Legend of Zelda - Overworld Enemies PNG_27: 1934892564
+      NES - The Legend of Zelda - Overworld Enemies PNG_28: -863627217
+      NES - The Legend of Zelda - Overworld Enemies PNG_29: 161655671
       NES - The Legend of Zelda - Overworld Enemies PNG_3: 1207240704
+      NES - The Legend of Zelda - Overworld Enemies PNG_30: 1651280987
+      NES - The Legend of Zelda - Overworld Enemies PNG_31: -787960737
+      NES - The Legend of Zelda - Overworld Enemies PNG_32: 1252341869
+      NES - The Legend of Zelda - Overworld Enemies PNG_33: 134977502
+      NES - The Legend of Zelda - Overworld Enemies PNG_34: -1452380511
+      NES - The Legend of Zelda - Overworld Enemies PNG_35: -1869749195
+      NES - The Legend of Zelda - Overworld Enemies PNG_36: 305770595
+      NES - The Legend of Zelda - Overworld Enemies PNG_37: 1878448775
+      NES - The Legend of Zelda - Overworld Enemies PNG_38: 511703055
+      NES - The Legend of Zelda - Overworld Enemies PNG_39: -2117148769
       NES - The Legend of Zelda - Overworld Enemies PNG_4: 1240654607
+      NES - The Legend of Zelda - Overworld Enemies PNG_40: -404452370
+      NES - The Legend of Zelda - Overworld Enemies PNG_41: -537584258
+      NES - The Legend of Zelda - Overworld Enemies PNG_42: 453770775
+      NES - The Legend of Zelda - Overworld Enemies PNG_43: 578483255
+      NES - The Legend of Zelda - Overworld Enemies PNG_44: -1380533734
+      NES - The Legend of Zelda - Overworld Enemies PNG_45: 2144772863
+      NES - The Legend of Zelda - Overworld Enemies PNG_46: -914365705
+      NES - The Legend of Zelda - Overworld Enemies PNG_47: -672242504
+      NES - The Legend of Zelda - Overworld Enemies PNG_48: 475159560
+      NES - The Legend of Zelda - Overworld Enemies PNG_49: -1034479246
+      NES - The Legend of Zelda - Overworld Enemies PNG_5: 1847489805
+      NES - The Legend of Zelda - Overworld Enemies PNG_50: 379456235
+      NES - The Legend of Zelda - Overworld Enemies PNG_51: 1141294501
+      NES - The Legend of Zelda - Overworld Enemies PNG_52: 765633356
+      NES - The Legend of Zelda - Overworld Enemies PNG_53: 1666874073
+      NES - The Legend of Zelda - Overworld Enemies PNG_54: 782667805
+      NES - The Legend of Zelda - Overworld Enemies PNG_55: -785612621
+      NES - The Legend of Zelda - Overworld Enemies PNG_56: -1831583462
+      NES - The Legend of Zelda - Overworld Enemies PNG_57: 1091171609
+      NES - The Legend of Zelda - Overworld Enemies PNG_58: 1792675935
+      NES - The Legend of Zelda - Overworld Enemies PNG_59: 947473054
+      NES - The Legend of Zelda - Overworld Enemies PNG_6: 1271477879
+      NES - The Legend of Zelda - Overworld Enemies PNG_60: -2022070534
+      NES - The Legend of Zelda - Overworld Enemies PNG_61: 2132596598
+      NES - The Legend of Zelda - Overworld Enemies PNG_62: 1116196604
+      NES - The Legend of Zelda - Overworld Enemies PNG_63: -643342886
+      NES - The Legend of Zelda - Overworld Enemies PNG_64: -1473304315
+      NES - The Legend of Zelda - Overworld Enemies PNG_65: 1120905950
+      NES - The Legend of Zelda - Overworld Enemies PNG_66: -1323285505
+      NES - The Legend of Zelda - Overworld Enemies PNG_67: 528231680
+      NES - The Legend of Zelda - Overworld Enemies PNG_68: 1024448019
+      NES - The Legend of Zelda - Overworld Enemies PNG_69: -1567830473
+      NES - The Legend of Zelda - Overworld Enemies PNG_7: 800889802
+      NES - The Legend of Zelda - Overworld Enemies PNG_70: -1349851708
+      NES - The Legend of Zelda - Overworld Enemies PNG_71: -1955294972
+      NES - The Legend of Zelda - Overworld Enemies PNG_72: -897340162
+      NES - The Legend of Zelda - Overworld Enemies PNG_73: 998863302
+      NES - The Legend of Zelda - Overworld Enemies PNG_74: -700658380
+      NES - The Legend of Zelda - Overworld Enemies PNG_75: -430810067
+      NES - The Legend of Zelda - Overworld Enemies PNG_76: 684494845
+      NES - The Legend of Zelda - Overworld Enemies PNG_77: -991315743
+      NES - The Legend of Zelda - Overworld Enemies PNG_78: 498262013
+      NES - The Legend of Zelda - Overworld Enemies PNG_79: 357360275
+      NES - The Legend of Zelda - Overworld Enemies PNG_8: 1567177528
+      NES - The Legend of Zelda - Overworld Enemies PNG_80: 459063953
+      NES - The Legend of Zelda - Overworld Enemies PNG_81: 482892112
+      NES - The Legend of Zelda - Overworld Enemies PNG_82: -435105790
+      NES - The Legend of Zelda - Overworld Enemies PNG_83: 273632978
+      NES - The Legend of Zelda - Overworld Enemies PNG_84: 419928899
+      NES - The Legend of Zelda - Overworld Enemies PNG_85: 784592373
+      NES - The Legend of Zelda - Overworld Enemies PNG_86: 191569474
+      NES - The Legend of Zelda - Overworld Enemies PNG_87: -1742870989
+      NES - The Legend of Zelda - Overworld Enemies PNG_88: -1865222841
+      NES - The Legend of Zelda - Overworld Enemies PNG_89: 1109053838
+      NES - The Legend of Zelda - Overworld Enemies PNG_9: 957044839
+      NES - The Legend of Zelda - Overworld Enemies PNG_90: -50793023
+      NES - The Legend of Zelda - Overworld Enemies PNG_91: 1462738638
+      NES - The Legend of Zelda - Overworld Enemies PNG_92: 31413562
+      NES - The Legend of Zelda - Overworld Enemies PNG_93: 413431946
+      NES - The Legend of Zelda - Overworld Enemies PNG_94: -790886423
+      NES - The Legend of Zelda - Overworld Enemies PNG_95: -610083845
+      NES - The Legend of Zelda - Overworld Enemies PNG_96: 2088108737
+      NES - The Legend of Zelda - Overworld Enemies PNG_97: 270174245
+      NES - The Legend of Zelda - Overworld Enemies PNG_98: 257079833
+      NES - The Legend of Zelda - Overworld Enemies PNG_99: -1226420428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
