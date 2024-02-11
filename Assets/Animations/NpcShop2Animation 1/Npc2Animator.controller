@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NpcAnimator
+  m_Name: Npc2Animator
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -116,7 +116,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f4e4356314cc0c64fba532fdf9977a38, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8ff0dff0eaae51047b77f89ac02537f4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
