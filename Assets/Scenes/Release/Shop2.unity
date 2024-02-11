@@ -453,11 +453,19 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
-      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      propertyPath: _triggerOnce
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
@@ -465,7 +473,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6da495e8b6d8c8a47a05a8e2850797aa, type: 2}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: c0f917d8373d8c849a8dc4e22bada808, type: 3}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
@@ -473,11 +489,23 @@ PrefabInstance:
       value: Dispatch
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Disable
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ContextualDialogueSystem.Event.DialogueEventObject, ContextAwareDialogueSystem
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1629480864813186257, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}

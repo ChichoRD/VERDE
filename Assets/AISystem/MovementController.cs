@@ -5,7 +5,9 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     Rigidbody2D rb;
+    public Rigidbody2D Rb => rb;
     [SerializeField] float speed = 10f;
+    public float Speed => speed;
     [SerializeField] Vector2 _lookDirection = new Vector2(0, -1);
     public Vector2 lookDirection => _lookDirection;
     private void Awake()

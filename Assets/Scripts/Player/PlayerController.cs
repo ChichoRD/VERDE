@@ -9,7 +9,11 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     public float moveSpeed = 10f;
     public Vector2 lookDirection;
+    [SerializeField] private InputManager _playerInput;
 
+    private float timer = 0;
+    [SerializeField] private float knockbackTime = 0.5f;
+    [SerializeField] private float knockbackSpeed = 1f;
 
     private void OnEnable()
     {
@@ -30,5 +34,24 @@ public class PlayerController : MonoBehaviour
 
         if (input != Vector2.zero)
             lookDirection = input;
+    }
+
+    public void KnockBack()
+    {
+        _playerInput.enabled = false;
+        rb.velocity = lookDirection * knockbackSpeed;
+    }
+
+    private void Update()
+    {
+        if (_playerInput.enabled==false) 
+        { 
+            timer = timer + Time.deltaTime;
+            if (timer > knockbackTime)
+            {
+                timer = 0f; //reicincio del contador
+                _playerInput.enabled = true;
+            }
+        }
     }
 }
