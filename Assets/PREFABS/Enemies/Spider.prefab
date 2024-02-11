@@ -257,6 +257,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   _lookDirection: {x: 0, y: -1}
+  OnLookRight:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLookLeft:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLookUp:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLookDown:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1174580385785216635
 MonoBehaviour:
   m_ObjectHideFlags: 0

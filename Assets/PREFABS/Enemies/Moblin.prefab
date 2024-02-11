@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -484399779, guid: 380e67865c7d53f4a8b60210f83c1849, type: 3}
+  m_Sprite: {fileID: 1934892564, guid: 380e67865c7d53f4a8b60210f83c1849, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7464299191434390573}
         m_TargetAssemblyTypeName: AnimationPlayer, Assembly-CSharp
-        m_MethodName: SetTrigger
+        m_MethodName: PlayAnimation
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -732,8 +732,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 753f5cd8dece55d458bee392bab4c91e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 4
   _lookDirection: {x: 0, y: -1}
+  OnLookRight:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7464299191434390573}
+        m_TargetAssemblyTypeName: AnimationPlayer, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MoveRight
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnLookLeft:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7464299191434390573}
+        m_TargetAssemblyTypeName: AnimationPlayer, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MoveLeft
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnLookUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7464299191434390573}
+        m_TargetAssemblyTypeName: AnimationPlayer, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MoveUp
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnLookDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7464299191434390573}
+        m_TargetAssemblyTypeName: AnimationPlayer, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MoveDown
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4987577295017413886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,7 +846,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: EnemyDeadAnimation
+          m_StringArgument: Death
           m_BoolArgument: 0
         m_CallState: 2
   OnTakeDamage:
@@ -817,7 +877,7 @@ Animator:
   m_GameObject: {fileID: 5844687046984405386}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28f9de11545364a439c13c2772150d8f, type: 2}
+  m_Controller: {fileID: 9100000, guid: a92a278b52fd0cd4197a7b718605dee2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
