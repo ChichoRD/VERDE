@@ -22,7 +22,7 @@ public class ArcMovementBehaviour : MonoBehaviour, IBehaviour
     public void ExecuteBehaviour()
     {
         Vector2 start = transform.position;
-        Vector2 end = new Vector2(Random.Range(-range.x, range.x), Random.Range(-range.y, range.y));
+        Vector2 end = new Vector2(Random.Range(-range.x, range.x), Random.Range(-range.y, range.y)) + (Vector2)transform.position;
 
         StartCoroutine(Curve(start, end));
     }
