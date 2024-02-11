@@ -47,6 +47,8 @@ public class BombPrefab : MonoBehaviour
         {
             healthSystem.LoseHealth(damage, transform.position);
         }
+
+
     }
 
     // Start is called before the first frame update

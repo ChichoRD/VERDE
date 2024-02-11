@@ -224,9 +224,9 @@ GameObject:
   - component: {fileID: 1047149025689198032}
   - component: {fileID: 1061994820681251496}
   - component: {fileID: 2636336896464745563}
-  - component: {fileID: 6970079092001361151}
   - component: {fileID: 2464153819684384378}
   - component: {fileID: 1796567759700689745}
+  - component: {fileID: -4928759728585221441}
   m_Layer: 7
   m_Name: Zora
   m_TagString: Untagged
@@ -463,25 +463,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6970079092001361151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3073328522715900395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bfc7ff664298d34eaddc9e06af7298f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targertLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  damage: 1
-  onHit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2464153819684384378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,6 +528,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4928759728585221441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3073328522715900395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f876734e2064947a91a5801b6e892b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targertLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  damage: 1
+  radius: 1.03
 --- !u!1 &3210791064504067688
 GameObject:
   m_ObjectHideFlags: 0

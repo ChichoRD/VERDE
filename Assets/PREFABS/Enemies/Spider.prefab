@@ -91,11 +91,10 @@ GameObject:
   - component: {fileID: 5243258794696071672}
   - component: {fileID: 3808430028931361082}
   - component: {fileID: 3719983479427904190}
-  - component: {fileID: 1174580385785216635}
   - component: {fileID: 3830529510388959170}
   - component: {fileID: 219957231636356192}
   - component: {fileID: 2494715584515132829}
-  - component: {fileID: 2513023716964732661}
+  - component: {fileID: 3270310748219848309}
   m_Layer: 7
   m_Name: Spider
   m_TagString: Untagged
@@ -231,7 +230,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012213513, y: -0.024427056}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -242,7 +241,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8778647, y: 0.6702349}
   m_EdgeRadius: 0
 --- !u!114 &3719983479427904190
 MonoBehaviour:
@@ -268,25 +267,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnLookDown:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1174580385785216635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2201078047895077851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bfc7ff664298d34eaddc9e06af7298f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targertLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  damage: 1
-  onHit:
     m_PersistentCalls:
       m_Calls: []
 --- !u!95 &3830529510388959170
@@ -358,41 +338,23 @@ MonoBehaviour:
   maxhealth: 1
   health: 1
   dying: 0
---- !u!58 &2513023716964732661
-CircleCollider2D:
+--- !u!114 &3270310748219848309
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2201078047895077851}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f876734e2064947a91a5801b6e892b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targertLayer:
     serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.75
+    m_Bits: 64
+  damage: 1
+  radius: 0.63
 --- !u!1 &2531000818925937229
 GameObject:
   m_ObjectHideFlags: 0

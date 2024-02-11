@@ -623,7 +623,7 @@ GameObject:
   - component: {fileID: 7414320667813397625}
   - component: {fileID: 7464299191434390573}
   - component: {fileID: 5723584980926983833}
-  - component: {fileID: 6095088128931244996}
+  - component: {fileID: 332133769539392078}
   m_Layer: 7
   m_Name: Moblin
   m_TagString: Untagged
@@ -945,7 +945,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6095088128931244996
+--- !u!114 &332133769539392078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -954,16 +954,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5844687046984405386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bfc7ff664298d34eaddc9e06af7298f, type: 3}
+  m_Script: {fileID: 11500000, guid: 49f876734e2064947a91a5801b6e892b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targertLayer:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
-  onHit:
-    m_PersistentCalls:
-      m_Calls: []
+  radius: 0.82
 --- !u!1 &6076705452692346333
 GameObject:
   m_ObjectHideFlags: 0
