@@ -14,7 +14,11 @@ public class HealthSystem : MonoBehaviour
     #region parameters 
     Rigidbody2D rb;
     public int maxhealth;
-    int health;
+    [SerializeField]int health;
+
+    float time = 0.15f;
+    float currentTime = 0f;
+    public bool dying = false;
     public int currenthealth
     {
         get { return health; }
@@ -75,4 +79,26 @@ public class HealthSystem : MonoBehaviour
     private void Awake() {
         rb = GetComponent<Rigidbody2D>();
     }
+
+    private void Update()
+    {
+        if (dying) currentTime = currentTime + Time.deltaTime;
+
+        if(currentTime > time)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
+
+    public void Dying()
+    {
+        dying = true;
+    }
+
+
 }
