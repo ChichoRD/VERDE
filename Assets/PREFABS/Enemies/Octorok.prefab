@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 6495407702569994225}
   - component: {fileID: 5714122640315372556}
   - component: {fileID: 4497235000255387119}
-  - component: {fileID: 5134435338606473384}
+  - component: {fileID: 6819298715305359680}
   - component: {fileID: 6511866892497561766}
   - component: {fileID: 9004130833670536937}
   - component: {fileID: 5754542262888487814}
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   _lookDirection: {x: 0, y: -1}
---- !u!114 &5134435338606473384
+--- !u!114 &6819298715305359680
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -855,10 +855,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6247058447108451499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b842df035dcf8e479fe78989f5a1da3, type: 3}
+  m_Script: {fileID: 11500000, guid: c9df1ff172f922c4795db8db4f118c14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletPrefab: {fileID: 7968483826277099191, guid: 7ad6dd7158cf10d47b549014bd7c5835, type: 3}
+  projectileObject: {fileID: 2051060612184946243, guid: d272257fbde4c3446b1c88c9c6278f51, type: 3}
 --- !u!114 &6511866892497561766
 MonoBehaviour:
   m_ObjectHideFlags: 0

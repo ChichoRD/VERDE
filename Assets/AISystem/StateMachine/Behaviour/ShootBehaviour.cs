@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ShootBehaviour : MonoBehaviour, IBehaviour
 {
-    Shooter _shooter;
+    ShootingComponent _shooter;
     MovementController _movementController;
     private void Awake() {
         _movementController = GetComponentInParent<MovementController>();
-        _shooter = GetComponentInParent<Shooter>();
+        _shooter = GetComponentInParent<ShootingComponent>();
     }
 
     public void ExecuteBehaviour()
