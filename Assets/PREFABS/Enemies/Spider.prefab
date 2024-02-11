@@ -354,7 +354,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
-  radius: 0.75
+  radius: 0.63
 --- !u!1 &2531000818925937229
 GameObject:
   m_ObjectHideFlags: 0
