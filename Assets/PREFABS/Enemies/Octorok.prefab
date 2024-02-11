@@ -984,7 +984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targertLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 65
   damage: 1
   onHit:
     m_PersistentCalls:
