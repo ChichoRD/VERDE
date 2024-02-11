@@ -21,4 +21,5 @@ public class BombCollectable : MonoBehaviour, ICollectable
             Destroy(gameObject);
         }
     }
+
 }

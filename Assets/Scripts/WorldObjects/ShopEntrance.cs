@@ -14,8 +14,10 @@ public class ShopEntrance : MonoBehaviour
     [SerializeField] UnityEvent onEnter;
 
     public void SetIsVisible(bool visible)  {
+
         isVisible = visible;
         transform.GetChild(0).gameObject.SetActive(visible);
+        transform.GetChild(1).gameObject.SetActive(!visible);
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -25,9 +27,16 @@ public class ShopEntrance : MonoBehaviour
             onEnter?.Invoke();
             SceneManager.LoadScene(targetScene);
         }
+        if (collision.GetComponent<BombPrefab>()) {
+            SetIsVisible(true);
+        }
+
     }
 
     private void Start() {
         transform.GetChild(0).gameObject.SetActive(isVisible);
+        transform.GetChild(1).gameObject.SetActive(!isVisible);
+
+        if (GameManager.Instance.shopVisited[1]) SetIsVisible(true);
     }
 }
