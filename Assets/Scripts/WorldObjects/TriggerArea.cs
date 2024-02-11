@@ -15,6 +15,9 @@ public class TriggerArea : MonoBehaviour
     [field: SerializeField]
     public UnityEvent<Collider2D> TriggerExit { get; private set; }
 
+    [field: SerializeField]
+    public UnityEvent<Collider2D> TriggerStay { get; private set; }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,6 +33,15 @@ public class TriggerArea : MonoBehaviour
         if (IsInLayermask(collision.gameObject, _triggerMask))
         {
             TriggerExit?.Invoke(collision);
+            CheckOneUse();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (IsInLayermask(collision.gameObject, _triggerMask))
+        {
+            TriggerStay?.Invoke(collision);
             CheckOneUse();
         }
     }

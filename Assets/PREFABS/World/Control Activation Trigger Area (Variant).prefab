@@ -9,32 +9,88 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: _triggerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: -944628639613478452, guid: c0f917d8373d8c849a8dc4e22bada808, type: 3}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Enable
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem
       objectReference: {fileID: 0}
     - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerStay>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 788508637474161598, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: <TriggerEnter>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629480864813186257, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: m_Size.x
+      value: 14.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629480864813186257, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
+      propertyPath: m_Size.y
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2634878131308473152, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: m_RootOrder
@@ -58,15 +114,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2634878131308473152, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2634878131308473152, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2634878131308473152, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2634878131308473152, guid: d95fa5e7a44290e4eb110799d9cf28d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

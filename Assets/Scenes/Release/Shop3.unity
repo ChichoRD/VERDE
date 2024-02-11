@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1263195861516082363, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
+      propertyPath: _playerInput
+      value: 
+      objectReference: {fileID: 1671551462}
     - target: {fileID: 2207277196442770106, guid: 8d2c73b8bb6366649af8739899b90d46, type: 3}
       propertyPath: m_Name
       value: Zelda
@@ -1893,10 +1897,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.4831771
+    x: 0
     y: 0
-    width: 0.42486808
-    height: 0.66078436
+    width: 0.9994121
+    height: 0.99999994
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -3235,7 +3239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.17864585
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -3243,11 +3247,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.6428572
+      value: 0.9994121
       objectReference: {fileID: 0}
     - target: {fileID: 1408405740787105400, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.99999994
       objectReference: {fileID: 0}
     - target: {fileID: 4352082354766680873, guid: 61be02da25f1416449b619a26d66a523, type: 3}
       propertyPath: m_Cameras.Array.size
@@ -3711,7 +3715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerActionMap: {fileID: -944628639613478452, guid: c0f917d8373d8c849a8dc4e22bada808, type: 3}
   playerController: {fileID: 193547257}
-  _movementActionReference: {fileID: 0}
+  _movementActionReference: {fileID: -8114537002518781756, guid: c0f917d8373d8c849a8dc4e22bada808, type: 3}
 --- !u!4 &1671551463
 Transform:
   m_ObjectHideFlags: 0
