@@ -11,6 +11,7 @@ public class ShopExit : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.GetComponent<PlayerController>() != null)
         {
+            AudioManager.Instance.PlayOneShot("stairs");
             onExit?.Invoke();
             SceneManager.LoadScene(targetScene);
         }

@@ -24,6 +24,7 @@ public class Bomb : MonoBehaviour, IWeapon
             status.bombCount--;
             playerAnimatorController.onUsingItem(true, 1);
             instantiatedBomb = Instantiate(bombPrefab, playerPosition + playerDirection, Quaternion.identity);
+            AudioManager.Instance.PlayOneShot("Bombas");
             instantiatedBomb.GetComponent<BombPrefab>()._animationController = playerAnimatorController;
             return true;
         }

@@ -17,11 +17,11 @@ public class OnTriggerEnter : MonoBehaviour
             {
                 if (other.CompareTag("Player") == true)
                 {
-                    AudioManager.Instance.PlayOneShot("Daño a jugador");
+                    AudioManager.Instance.PlayOneShot("Daño Jugador");
                 }
                 else
                 {
-                    AudioManager.Instance.PlayOneShot("Daño Enemigo");
+                    AudioManager.Instance.PlayOneShot("AtaqueEnemigo");
                 }
                 healthSystem.LoseHealth(damage, transform.position);
             }
