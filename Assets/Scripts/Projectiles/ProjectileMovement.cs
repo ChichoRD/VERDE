@@ -59,7 +59,7 @@ public class ProjectileMovement : MonoBehaviour
     void Update()
     {
         body.velocity = directionVector * speed;
-        Debug.Log(directionVector + " -> " + body.velocity);
+        
         if (faceMovementDirection)
         {
             _myTransform.right = directionVector;

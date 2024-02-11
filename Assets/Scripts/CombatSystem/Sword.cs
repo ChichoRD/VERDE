@@ -11,12 +11,12 @@ public class Sword : MonoBehaviour, IWeapon
     private GameObject currentHitbox;
     private PlayerAnimatorController playerAnimatorController;
     [SerializeField] LinkStats linkStats;
-    Shooter attachedSwordBeam;
+    ShootingComponent attachedSwordBeam;
 
     void Start()
     {
         playerAnimatorController = GetComponent<PlayerAnimatorController>();
-        attachedSwordBeam = GetComponent<Shooter>();
+        attachedSwordBeam = GetComponent<ShootingComponent>();
     }
 
     public bool Use(Vector2 playerPosition, Vector2 playerDirection)
