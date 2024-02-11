@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace ContextualDialogueSystem.RuleHandler
 {
@@ -19,6 +20,9 @@ namespace ContextualDialogueSystem.RuleHandler
         [SerializeField]
         private bool _appendEmptySentenceAtEnd;
 
+        [field: SerializeField]
+        public UnityEvent Handled { get; private set; }
+
         public async Task<bool> HandleRule(IDialogueRule<ISpeechContent<string>, ICriteria> dialogueRule)
         {
             _sentenceDialogueHandler ??= _sentenceDialogueHandlerObject as IDialogueRuleHandler<string>;
@@ -29,6 +33,7 @@ namespace ContextualDialogueSystem.RuleHandler
             foreach (var message in speechContent)
                 await _sentenceDialogueHandler.HandleRule(new DialogueRule<string, ICriteria>(message, dialogueRule.Criteria));
 
+            Handled?.Invoke();
             return true;
         }
     }
