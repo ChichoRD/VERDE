@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShootAtTargetBehaviour : MonoBehaviour, IBehaviour
 {
 
-    Shooter _shooter;
+    ShootingComponent _shooter;
     TargetHandler _targetHandler;
     public void ExecuteBehaviour()
     {
@@ -15,6 +15,6 @@ public class ShootAtTargetBehaviour : MonoBehaviour, IBehaviour
     void Start() 
     { 
         _targetHandler = GetComponentInParent<TargetHandler>();
-        _shooter = GetComponentInParent<Shooter>();
+        _shooter = GetComponentInParent<ShootingComponent>();
     }
 }
