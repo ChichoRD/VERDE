@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8396762080528610785}
   - component: {fileID: 7003089573501539193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wait 1 - 2s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116798549512918812}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 219957231636356192}
   - component: {fileID: 2494715584515132829}
   - component: {fileID: 2513023716964732661}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Spider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7533365956082283135}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Behaviours
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255407723942508089}
   - component: {fileID: 3288601463842655143}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5618699601354436378}
   - component: {fileID: 1826582236890302013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -564,7 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731904048564166548}
   - component: {fileID: 1529450452750619879}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: IdleState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 5329884831026928264}
   - component: {fileID: 5848465768779428292}
   - component: {fileID: 8182418018987181242}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -697,7 +697,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4334762492929405811}
   - component: {fileID: 872785434194471051}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ArcMovementBehaviour 0,52s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8714579780429203330}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Conditions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7790709385827706048}
   - component: {fileID: 9067196655845716747}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: True
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1090239509234591635}
   - component: {fileID: 583097348282539303}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ActionState
   m_TagString: Untagged
   m_Icon: {fileID: 0}

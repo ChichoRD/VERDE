@@ -15,23 +15,25 @@ public class OnTriggerEnter : MonoBehaviour
             onHit?.Invoke();
             if(other.TryGetComponent(out HealthSystem healthSystem))
             {
-                if (other.CompareTag("Player") == true)
-                {
-                    AudioManager.Instance.PlayOneShot("Daño a jugador");
-                }
-                else
-                {
-                    AudioManager.Instance.PlayOneShot("Daño Enemigo");
-                }
                 healthSystem.LoseHealth(damage, transform.position);
             }
-            Destroy(this);
         }
 
         if(other.name == "Screen Barriers") //he hecho stringtyping asiesasies
         {
             onHit?.Invoke();
             Destroy(this);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) {
+        if((targertLayer & 1 << other.gameObject.layer) != 0)
+        {
+            onHit?.Invoke();
+            if(other.collider.TryGetComponent(out HealthSystem healthSystem))
+            {
+                healthSystem.LoseHealth(damage, transform.position);
+            }
         }
     }
 }

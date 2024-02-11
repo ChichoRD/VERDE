@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7726248428602793515}
   - component: {fileID: 4006490175362284108}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: True
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5380709207212200062}
   - component: {fileID: 9207974679888679969}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7122217742789138959}
   - component: {fileID: 6415825116559996036}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TpRelativeToTargetBehaviour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 8507498165371656876}
   - component: {fileID: 1441071706307318730}
   - component: {fileID: 6032787751336464988}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Leever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5660967639198361727}
   - component: {fileID: 1272974689205994576}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WaitState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4128841947366580522}
   - component: {fileID: 4355583251349965252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MoveState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6735425724934044299}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: States
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -589,7 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4259981388813258742}
   - component: {fileID: 7721194366323947061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wait 0,5 - 0,5s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -634,7 +634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 315305291895662208}
   - component: {fileID: 2211807086048210943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TpState
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5870618328816741196}
   - component: {fileID: 1259982853714927607}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: sr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9069973744104231080}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Behaviours
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1179909751829184194}
   - component: {fileID: 2664558497206064265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wait 2,5 - 3s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 8084408950282127823}
   - component: {fileID: 8710490658983392991}
   - component: {fileID: 1883417193698880682}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8935555254563115286}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Conditions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,7 +961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3799763706882416371}
   - component: {fileID: 4111073283988610210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Follow Target x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
