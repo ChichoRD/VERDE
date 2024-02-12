@@ -941,6 +941,7 @@ MonoBehaviour:
         m_CallState: 2
   maxhealth: 2
   health: 0
+  canGetDamage: 1
   dying: 0
 --- !u!95 &5754542262888487814
 Animator:
