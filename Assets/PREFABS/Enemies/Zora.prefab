@@ -396,6 +396,7 @@ MonoBehaviour:
       m_Calls: []
   maxhealth: 2
   health: 0
+  canGetDamage: 1
   dying: 0
 --- !u!95 &1047149025689198032
 Animator:
