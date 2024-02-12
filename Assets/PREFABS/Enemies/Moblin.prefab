@@ -624,6 +624,7 @@ GameObject:
   - component: {fileID: 7464299191434390573}
   - component: {fileID: 5723584980926983833}
   - component: {fileID: 332133769539392078}
+  - component: {fileID: 8837662173099398374}
   m_Layer: 7
   m_Name: Moblin
   m_TagString: Untagged
@@ -861,6 +862,18 @@ MonoBehaviour:
           m_StringArgument: Death
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8837662173099398374}
+        m_TargetAssemblyTypeName: RandomDrop, Assembly-CSharp
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Death
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -975,6 +988,21 @@ MonoBehaviour:
     m_Bits: 64
   damage: 1
   radius: 0.82
+--- !u!114 &8837662173099398374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5844687046984405386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0521ba1e5a587d14c831173d9248389b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomItems:
+  - {fileID: 1225134737198363154, guid: c00d2d4d0c1b26449984aad6de5de73f, type: 3}
+  - {fileID: 1091941174852138687, guid: 8a2a19ca18778a346ae4cacd757f8159, type: 3}
 --- !u!1 &6076705452692346333
 GameObject:
   m_ObjectHideFlags: 0

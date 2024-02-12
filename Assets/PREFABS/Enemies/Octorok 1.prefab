@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 5848701791790704652}
   - component: {fileID: 3699050583529917516}
   - component: {fileID: -4134182748316149424}
+  - component: {fileID: -3378891534030611058}
   m_Layer: 7
   m_Name: Octorok 1
   m_TagString: Untagged
@@ -924,6 +925,18 @@ MonoBehaviour:
           m_StringArgument: EnemyDeadAnimation
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -3378891534030611058}
+        m_TargetAssemblyTypeName: RandomDrop, Assembly-CSharp
+        m_MethodName: Drop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: EnemyDeadAnimation
+          m_BoolArgument: 0
+        m_CallState: 2
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
@@ -1019,7 +1032,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2128572, y: 1.2356629}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &-4134182748316149424
 MonoBehaviour:
@@ -1037,7 +1050,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
-  radius: 1.5
+  radius: 1
+--- !u!114 &-3378891534030611058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6247058447108451499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0521ba1e5a587d14c831173d9248389b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomItems:
+  - {fileID: 1225134737198363154, guid: c00d2d4d0c1b26449984aad6de5de73f, type: 3}
+  - {fileID: 1091941174852138687, guid: 8a2a19ca18778a346ae4cacd757f8159, type: 3}
 --- !u!1 &6445313235542090673
 GameObject:
   m_ObjectHideFlags: 0
