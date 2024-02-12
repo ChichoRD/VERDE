@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 8589046448746449135}
   - component: {fileID: 866858574603231836}
   - component: {fileID: 2761851112750681171}
+  - component: {fileID: 3831611220123654252}
   m_Layer: 6
   m_Name: Zelda
   m_TagString: Player
@@ -314,6 +315,7 @@ MonoBehaviour:
         m_CallState: 2
   maxhealth: 3
   health: 0
+  canGetDamage: 1
   dying: 0
 --- !u!114 &4612197760059233399
 MonoBehaviour:
@@ -444,3 +446,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileObject: {fileID: 8702971752658286401, guid: ffbf6b72ae2d4af489a607794fd530c3, type: 3}
+--- !u!114 &3831611220123654252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7415411860818986110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dc235b0c8162342bec390ee7cf532b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDownTime: 1
