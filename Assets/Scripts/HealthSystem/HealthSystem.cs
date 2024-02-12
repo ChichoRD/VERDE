@@ -9,12 +9,14 @@ public class HealthSystem : MonoBehaviour
 {
     public UnityEvent<int> OnHealthChange = new UnityEvent<int>();
     [SerializeField] UnityEvent onDeath = new UnityEvent();
-    [SerializeField] UnityEvent OnTakeDamage = new UnityEvent();
+    public UnityEvent OnTakeDamage = new UnityEvent();
 
     #region parameters 
     Rigidbody2D rb;
     public int maxhealth;
     [SerializeField]int health;
+
+    public bool canGetDamage = true;
 
     float time = 0.15f;
     float currentTime = 0f;
@@ -40,6 +42,7 @@ public class HealthSystem : MonoBehaviour
     //Recibe da�o y se le resta a la vida, vale para link y para los enemigos.
     public void LoseHealth(int DamageTaken, Vector2 hitPoint)
     {
+        if (!canGetDamage) return;
         Vector2 direction = ((Vector2)transform.position - hitPoint).normalized;
         //rb.velocity = direction * 5;
         OnTakeDamage?.Invoke();

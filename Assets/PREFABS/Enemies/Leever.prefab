@@ -372,6 +372,7 @@ MonoBehaviour:
       m_Calls: []
   maxhealth: 0
   health: 0
+  canGetDamage: 1
   dying: 0
 --- !u!95 &1441071706307318730
 Animator:
@@ -422,7 +423,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
-  radius: 0.33
+  radius: 0.51
 --- !u!1 &4170586326221565903
 GameObject:
   m_ObjectHideFlags: 0

@@ -349,6 +349,7 @@ MonoBehaviour:
       m_Calls: []
   maxhealth: 1
   health: 1
+  canGetDamage: 1
   dying: 0
 --- !u!114 &3270310748219848309
 MonoBehaviour:
